@@ -30,7 +30,7 @@ categories: CV NLP Others
 
 - [著者，"タイトル，" ジャーナル名，voluem，no.，ページ，年](論文リンク)
 ```
-- [参考 落合先生論文フォーマット](http://lafrenze.hatenablog.com/entry/2015/08/04/120205)
+- [参考-先端技術とメディア表現1](https://www.slideshare.net/Ochyai/1-ftma15)
 
 ## Usage
  
