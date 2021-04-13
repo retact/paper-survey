@@ -1,9 +1,9 @@
 # paper-survey
 
 ## Rules
- ○ Submit the paper you intend to read to issues.
- ○ Set a time to read the paper.
- ○ Summarize the papers you read according to the following format.
+ ○ Submit the paper you intend to read to issues.  
+ ○ Set a time to read the paper.  
+ ○ Summarize the papers you read according to the following format.  
 
 ## Format
 ```md
@@ -33,7 +33,7 @@ categories: CV NLP Others
 
 ## Usage
  
- Put the papers you read into the directry after cloning them as following.
+ Put the papers you read into the directry after cloning them as following.  
  At a minimum, you should be able to read two papers a day.
 
 ```bash
