@@ -7,10 +7,11 @@
 
 ## Format
 ```md
-# Title
 ---
+layout: post
+title:  "論文タイトル"
 date:   YYYY-MM-DD
-categories: ARL
+categories: CV NLP Others
 ---
 
 ## 1. どんなもの？
