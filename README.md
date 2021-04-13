@@ -37,6 +37,6 @@ categories: CV NLP Others
  At a minimum, you should be able to read two papers a day.
 
 ```bash
-git clone https://github.com/takutosoeda/Papers.git
-cd Papers
+git clone https://github.com/takutosoeda/paper-survey.git
+cd paper-survey
 ```
