@@ -30,11 +30,10 @@ categories: CV NLP Others
 
 - [著者，"タイトル，" ジャーナル名，voluem，no.，ページ，年](論文リンク)
 ```
+- [参考 落合先生論文フォーマット](http://lafrenze.hatenablog.com/entry/2015/08/04/120205)
 
 ## Usage
  
- Put the papers you read into the directry after cloning them as following.  
- At a minimum, you should be able to read two papers a day.
 
 ```bash
 git clone https://github.com/takutosoeda/paper-survey.git
