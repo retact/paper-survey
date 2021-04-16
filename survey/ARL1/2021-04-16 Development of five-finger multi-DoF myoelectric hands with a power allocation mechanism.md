@@ -17,12 +17,12 @@ categories: AH
 ## 3. 技術や手法の"キモ"はどこにある？
 ・1つの指につき2つのアクチュエータと13DoFの18関節でで駆動する総重量1.1kgのロボットハンド   
 ・未使用の動力を配分線を介して駆動力を隣接する指に配分する干渉機構を用いることで動力を配分することで握力を向上させられる。
-（2本指の把持動作と3本指の把持動作では、小指から人差し指への動力配分をしている） 
- ![Figure 3](../../img/Development of five-finger multi-DoF myoelectric hands with a power allocation mechanism/figure3.gif)   
-・伝達するワイヤが伸びているときに力を伝達し、弛んでいるときに伝達しないH型の伝達機構によって指の結合状態が分断したりする。　　
- ![Figure 4](../../img/Development of five-finger multi-DoF myoelectric hands with a power allocation mechanism/figure4.gif)  
+（2本指の把持動作と3本指の把持動作では、小指から人差し指への動力配分をしている)  
+ ![Figure 3](https://github.com/takutosoeda/paper-survey/blob/main/img/Development%20of%20five-finger%20multi-DoF%20myoelectric%20hands%20with%20a%20power%20allocation%20mechanism/figure3.gif?raw=true)   
+・伝達するワイヤが伸びているときに力を伝達し、弛んでいるときに伝達しないH型の伝達機構によって指の結合状態が分断したりする。  
+ ![Figure 4](https://github.com/takutosoeda/paper-survey/blob/main/img/Development%20of%20five-finger%20multi-DoF%20myoelectric%20hands%20with%20a%20power%20allocation%20mechanism/figure4.gif?raw=true)  
 ・電力配分線の長さは独立して動かす間と結合している状態を作るために、サイバーグローブを用いてDoFリバフを計測し合力を考えて適切に設計する。  
- ![Figure 7](../../img/Development of five-finger multi-DoF myoelectric hands with a power allocation mechanism/figure7.gif)   
+ ![Figure 7](https://github.com/takutosoeda/paper-survey/blob/main/img/Development%20of%20five-finger%20multi-DoF%20myoelectric%20hands%20with%20a%20power%20allocation%20mechanism/figure7.gif?raw=true)   
   
 ## 4. どうやって有効だと検証した？
 ・指先の力に関しては圧力センサを用いてpower allocation mechanismを使う前と比べ全体的に23-63%上昇している。
