@@ -1,7 +1,7 @@
 ---
 title:  "論文タイトル"
 date:   YYYY-MM-DD
-categories: CV NLP Others
+categories: AH EMG Others
 ---
 
 ## 1. どんなもの？
@@ -10,9 +10,9 @@ categories: CV NLP Others
 
 ## 3. 技術や手法の"キモ"はどこにある？
 
-![Figure 1]({{ site.baseurl }}/img/(cv, nlp, others)/(title)/figure1.png)
+![Figure 1]()
 
-<img src="{{ site.baseurl }}/img/(cv, nlp, others)/(title)/figure1.png" width="400px" alt="Figure 1">
+
 
 ## 4. どうやって有効だと検証した？
 
