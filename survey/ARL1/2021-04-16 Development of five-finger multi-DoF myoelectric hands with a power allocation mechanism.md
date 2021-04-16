@@ -10,20 +10,20 @@ categories: AH
 サイズや重量を大幅に変えることなく、自由度が高く安定した状態で握力を向上できる。
 
 ## 2. 先行研究と比べてどこがすごいの？
-[R.Kato, H.Yokoi, "Evaluation of Motor Recovery by Using Adaptive Myoelectric Hand", Journal of the Robotics Society of Japan, Vol.27, No.8, pp.102-108, ROBOTICS SOCIETY OF JAPAN, 1J2-7, Sep. 2010. In Japanese](https://www.researchgate.net/publication/272574108_Evaluation_of_Motor_Recovery_by_Using_Adaptive_Myoelectric_Hand)
-ｚでは腱駆動と干渉駆動機構を備えた5本指のロボットハンドを提案しているが、DoFが独立した機構のため5本の指のサブセットでの握力が低いため、
+[R.Kato, H.Yokoi, "Evaluation of Motor Recovery by Using Adaptive Myoelectric Hand", Journal of the Robotics Society of Japan, Vol.27, No.8, pp.102-108, ROBOTICS SOCIETY OF JAPAN, 1J2-7, Sep. 2010. In Japanese](https://www.researchgate.net/publication/272574108_Evaluation_of_Motor_Recovery_by_Using_Adaptive_Myoelectric_Hand)  
+ では腱駆動と干渉駆動機構を備えた5本指のロボットハンドを提案しているが、DoFが独立した機構のため5本の指のサブセットでの握力が低いため、
 サブセットの握力を向上させるallocation mechanismは軽量小型と、DoF把持力向上というトレードオフの関係とされている中で画期的なものとなっている。
 
 ## 3. 技術や手法の"キモ"はどこにある？
 ・1つの指につき2つのアクチュエータと13DoFの18関節でで駆動する総重量1.1kgのロボットハンド   
 ・未使用の動力を配分線を介して駆動力を隣接する指に配分する干渉機構を用いることで動力を配分することで握力を向上させられる。
 （2本指の把持動作と3本指の把持動作では、小指から人差し指への動力配分をしている） 
-![Figure 3](/img/Development of five-finger multi-DoF myoelectric hands with a power allocation mechanism/figure3.gif)   
+ ![Figure 3](../../img/Development of five-finger multi-DoF myoelectric hands with a power allocation mechanism/figure3.gif)   
 ・伝達するワイヤが伸びているときに力を伝達し、弛んでいるときに伝達しないH型の伝達機構によって指の結合状態が分断したりする。　　
-![Figure 4](/img/Development of five-finger multi-DoF myoelectric hands with a power allocation mechanism/figure4.gif)  
-・電力配分線の長さは独立して動かす間と結合している状態を作るために、サイバーグローブを用いてDoFリバフを計測し合力を考えて適切に設計する。　　
-![Figure 7](/img/Development of five-finger multi-DoF myoelectric hands with a power allocation mechanism/figure7.gif)  
-
+ ![Figure 4](../../img/Development of five-finger multi-DoF myoelectric hands with a power allocation mechanism/figure4.gif)  
+・電力配分線の長さは独立して動かす間と結合している状態を作るために、サイバーグローブを用いてDoFリバフを計測し合力を考えて適切に設計する。  
+ ![Figure 7](../../img/Development of five-finger multi-DoF myoelectric hands with a power allocation mechanism/figure7.gif)   
+  
 ## 4. どうやって有効だと検証した？
 ・指先の力に関しては圧力センサを用いてpower allocation mechanismを使う前と比べ全体的に23-63%上昇している。
 ・ピックアンドプレースタスクにおいて、タスクの成功率が高くなっている。
