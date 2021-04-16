@@ -10,7 +10,7 @@
 ---
 title:  "論文タイトル"
 date:   YYYY-MM-DD
-categories: CV NLP Others
+categories: ARL EMG...
 ---
 
 ## 1. どんなもの？
