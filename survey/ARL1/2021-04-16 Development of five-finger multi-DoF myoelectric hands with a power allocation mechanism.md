@@ -15,7 +15,8 @@ categories: AH
 サブセットの握力を向上させるallocation mechanismは軽量小型と、DoF把持力向上というトレードオフの関係とされている中で画期的なものとなっている。
 
 ## 3. 技術や手法の"キモ"はどこにある？
-*・1つの指につき2つのアクチュエータと13DoFの18関節でで駆動する総重量1.1kgのロボットハンド *  
+
+*・1つの指につき2つのアクチュエータと13DoFの18関節でで駆動する総重量1.1kgのロボットハンド*   
 *・未使用の動力を配分線を介して駆動力を隣接する指に配分する干渉機構を用いることで動力を配分することで握力を向上させられる。*
 （2本指の把持動作と3本指の把持動作では、小指から人差し指への動力配分をしている)  
  ![Figure 3](https://github.com/takutosoeda/paper-survey/blob/main/img/Development%20of%20five-finger%20multi-DoF%20myoelectric%20hands%20with%20a%20power%20allocation%20mechanism/figure3.gif?raw=true)   
