@@ -1,8 +1,7 @@
 # paper-survey
 
 ## Rules
- ○ Submit the paper you intend to read to issues.  
- ○ Set a time to read the paper.  
+ ○ Submit the paper you intend to read to issues.   
  ○ Summarize the papers you read according to the following format.  
 
 ## Format
