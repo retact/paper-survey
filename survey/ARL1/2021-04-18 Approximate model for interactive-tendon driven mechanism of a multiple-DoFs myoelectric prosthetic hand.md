@@ -9,7 +9,7 @@ categories: PH EMG
 　
 ## 2. 先行研究と比べてどこがすごいの？
  ●  これまでの筋電義手のアクチュエータや伝達機構は筋肉に相当するものではなく、重くなり、把持力を向上させるのが難しかったが、小型アクチュエータの力を効率的に指に配分し、インタラクティブな腱駆動による筋電義手を開発したこと。
- ●　
+ 　
 ## 3. 技術や手法の"キモ"はどこにある？
  ● MP関節のみ動かすワイヤとMP,PIP,DIPを動かすワイヤを動かす2つのアクチュエータを用いて把持力を向上させる。  
  ![Figure 2](https://github.com/takutosoeda/paper-survey/blob/main/img/Approximate%20model%20for%20interactive-tendon%20driven%20mechanism%20of%20a%20multiple-DoFs%20myoelectric%20prosthetic%20hand/figure2.gif?raw=true)  
@@ -25,7 +25,7 @@ categories: PH EMG
 ## 4. どうやって有効だと検証した？
  ● 近似モデルによるパフォーマンスにより、入力角度と出力角度を実験的に評価  
  ● IPが小さいときのMPの入出力は10%未満で線形でIPが大きい場合非線形になる  
- ● IPの関係はほぼ線形になる。
+ ● IPの関係はほぼ線形になる。  
  ![Figure 11](https://github.com/takutosoeda/paper-survey/blob/main/img/Approximate%20model%20for%20interactive-tendon%20driven%20mechanism%20of%20a%20multiple-DoFs%20myoelectric%20prosthetic%20hand/figure11.gif?raw=true)  
   
 
