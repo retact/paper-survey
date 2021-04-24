@@ -12,16 +12,16 @@ categories: EMG
  ● MyoBock 13E200-50電極によりsEMG信号を増幅、バンドパスフィルタリング、RMS整流している。  
  ● 物理的な意味が明らかであり計算コストの低い時間領域解析法と安定している周波数領域解析を用いている。  
  ● 計算量の低くセグメントごとに大きな特徴を示すMMAVを用いている。(sEMG波形をN分割し、MAV(平均絶対値)を左から抽出する。  
- ![Figure 2]()  
+ ![Figure 2](https://github.com/takutosoeda/paper-survey/blob/main/img/Hand%20Gesture%20Recognition%20Based%20on%20Semg%20Signal%20and%20Improved%20SVM%20Voting%20Method/figure2.gif?raw=true)  
  ● 他の特徴量ではMMAVTPはMMAVのNの配列であり、MMAVを補完し、MPFというパワースペクトル密度関数を用いた周波数領域の特徴量を用いている。これらにより特徴ベクトル数は10,次元は3となる。  
  ● SVMをクラス距離に基づいて計算された分離可能性の基準によって異なるサブトレーニングセットに分散させる。  
  ● 分離可能性を強化する係数はSQPアルゴリズムを用いた非線形多変数関数の解を元に決められた制約条件に基づき産出する。  
 
 ## 4. どうやって有効だと検証した？
- ● Ninaproが定義した12のジェスチャ-を用いた。
- ![Figure 1]()  
+ ● Ninaproが定義した12のジェスチャ-を用いた。  
+ ![Figure 1](https://github.com/takutosoeda/paper-survey/blob/main/img/Hand%20Gesture%20Recognition%20Based%20on%20Semg%20Signal%20and%20Improved%20SVM%20Voting%20Method/figure1.gif?raw=true)  
  ● 一般的ないくつかのニューラルネットワーク分類器と比較し，また従来の投票法とも比較した結果チャンネル数が同じ場合、改良型SVM投票法の認識効果は、他の分類器よりも著しく優れていることがわかった  
- ![Figure 5]()  
+ ![Figure 5](https://github.com/takutosoeda/paper-survey/blob/main/img/Hand%20Gesture%20Recognition%20Based%20on%20Semg%20Signal%20and%20Improved%20SVM%20Voting%20Method/figure5.gif?raw=true)  
 
 ## 5. 議論はあるか？
  ● 加速度センサなどを用いて特徴量を増やすことにより、より多くのジェスチャーを取り込む。
