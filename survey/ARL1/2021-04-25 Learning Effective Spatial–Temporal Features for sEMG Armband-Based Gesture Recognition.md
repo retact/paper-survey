@@ -7,7 +7,7 @@ categories: EMG
 ## 1. どんなもの？
 時間的に非定常信号であるsEMGを空間-時間特徴に基づく、ジェスチャー認識法(STF-GR)の提案。非定常多チャンネルのsEMGを分解し、定常副信号に合同変換したのち、空間的独立性と時間的定常性を生み出す。その後負の対数尤度ベースのコスト関数を用いて，最終的なジェスチャーの判定する。STF-GRはsEMGアームバンドのために設計されたもの。
 
-![Figure 3]()  
+![Figure 3](https://github.com/takutosoeda/paper-survey/blob/main/img/Learning%20Effective%20Spatial%E2%80%93Temporal%20Features%20for%20sEMG%20Armband-Based%20Gesture%20Recognition/figure3.gif?raw=true)  
  
 ## 2. 先行研究と比べてどこがすごいの？
  ● sEMGの本質的な空間的・時間的特徴を学習する新しいジェスチャー認識フレームワークであるという点
@@ -19,7 +19,7 @@ categories: EMG
    
  ● CRNNベースの特徴学習戦略  
     空間的特徴を畳み込み層で抽出し，抽出した空間的特徴のシーケンスをリカレント層に与えて時間的特徴を抽出する.  
-  ![Figure 4]()  
+  ![Figure 4](https://github.com/takutosoeda/paper-survey/blob/main/img/Learning%20Effective%20Spatial%E2%80%93Temporal%20Features%20for%20sEMG%20Armband-Based%20Gesture%20Recognition/figure4.gif?raw=true)  
   
  ● ジェスチャー認識プロセス  
     オンライン予測モデルの構築には，CRNNの出力を受け取るために，1つの負の対数尤度層を使用する  
