@@ -34,6 +34,6 @@ categories: ARL EMG...
  
 
 ```bash
-git clone https://github.com/takutosoeda/paper-survey.git
+git clone https://github.com/retact/paper-survey.git
 cd paper-survey
 ```
