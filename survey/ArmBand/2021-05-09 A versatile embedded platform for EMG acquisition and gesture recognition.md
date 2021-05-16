@@ -11,9 +11,12 @@ categories: EMG
 筋電にはクロストークなどのいくつかの干渉やユーザーによって筋肉の構造が異なり、装着する場所を標準化できないといった問題に対して、高度な機械学習アルゴリズムによってオフライン制御によって認識精度をあげる試みが行われており、HMIでは行えない計算であったが、ARM Cortex M4を用いたEMG収集、及ジェスチャー認識システムHMIで高度な計算を実現している。またEMGジェスチャ認識システムにおいてチップレベルで多くのソリューションは開発されているが信号取得と処理の完全なシステムアプローチは行われていない。
 　　
 ## 3. 技術や手法の"キモ"はどこにある？
- 
+ ● Signal Acquisition Front-End (cerebro ASIC)  
+ ![Figure 3](https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/4156126/7337496/7303979/7303979-fig-2-source-large.gif)  
+
+
  ![Figure 1](https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/4156126/7337496/7303979/7303979-fig-1-source-large.gif)  
-  
+ 
  ![Figure 2](https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/4156126/7337496/7303979/7303979-fig-3-source-large.gif)  
 
 ## 4. どうやって有効だと検証した？
