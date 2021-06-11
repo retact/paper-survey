@@ -2,7 +2,7 @@
 ---
 author: "retact"
 title: "Development of five-finger multi-DoF myoelectric hands with a power allocation mechanism"
-date: "2020-04-16"
+date: "2021-04-16"
 description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 tags: [
     "AH"

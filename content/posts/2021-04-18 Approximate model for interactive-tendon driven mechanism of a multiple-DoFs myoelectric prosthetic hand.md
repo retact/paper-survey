@@ -3,7 +3,7 @@
 ---
 author: "retact"
 title: Approximate model for interactive-tendon driven mechanism of a multiple-DoFs myoelectric prosthetic hand"
-date: "2020-04-18"
+date: "2021-04-18"
 description: "インタラクティブな腱駆動機構の筋電義手の開発"
 tags: [
     "AH",

@@ -2,7 +2,7 @@
 ---
 author: "retact"
 title: "A Framework for Hand Gesture Recognition Based on Accelerometer and EMG Sensors"
-date: "2020-05-12"
+date: "2021-05-12"
 description: "ACCとEMGセンサーフュージョンのために決定気とHMMを用いたジェスチャー認識フレームワーク"
 tags: [
     "EMG"

@@ -1,7 +1,7 @@
 ---
 author: "retact"
 title: "A versatile embedded platform for EMG acquisition and gesture recognition"
-date: "2020-05-09"
+date: "2021-05-09"
 description: "安価でオンライン制御のできるアームバンドの開発"
 tags: [
     "EMG",

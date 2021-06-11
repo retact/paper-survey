@@ -3,7 +3,7 @@
 ---
 author: "retact"
 title: "Navigating features: a topologically informed chart of electromyographic features space"
-date: "2020-05-18"
+date: "2021-05-18"
 description: "トポロジカルな手法を用いた特徴量選定の方法について"
 tags: [
     "EMG",

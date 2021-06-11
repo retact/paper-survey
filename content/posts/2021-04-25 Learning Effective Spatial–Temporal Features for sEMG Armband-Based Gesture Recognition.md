@@ -2,7 +2,7 @@
 ---
 author: "retact"
 title: "Learning Effective Spatial–Temporal Features for sEMG Armband-Based Gesture Recognition"
-date: "2020-04-25"
+date: "2021-04-25"
 description: "時間的、空間的特徴に基づいたジェスチャー識別法STR-GRの提案"
 tags: [
     "EMG",

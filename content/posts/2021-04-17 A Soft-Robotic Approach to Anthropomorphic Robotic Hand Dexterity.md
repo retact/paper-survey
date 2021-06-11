@@ -1,7 +1,7 @@
 ---
 author: "retact"
 title: "A Soft-Robotic Approach to Anthropomorphic Robotic Hand Dexterity"
-date: "2020-04-17"
+date: "2021-04-17"
 description: "ソフトロボットハンドBCL-26の開発"
 tags: [
     "AH"

@@ -2,7 +2,7 @@
 ---
 author: "retact"
 title: "A myoelectric prosthetic hand with muscle synergy–based motion determination and impedance model–based biomimetic control"
-date: "2020-04-17"
+date: "2021-04-17"
 description: "3Dプリンタ義手におけるキンシナジーに基づく動作決定法と生体模倣インピーダンス制御について"
 tags: [
     "AH",

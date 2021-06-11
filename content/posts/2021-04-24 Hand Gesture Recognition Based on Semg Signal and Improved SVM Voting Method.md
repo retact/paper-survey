@@ -1,7 +1,7 @@
 ---
 author: "retact"
 title: "Hand Gesture Recognition Based on Semg Signal and Improved SVM Voting Method"
-date: "2020-04-24"
+date: "2021-04-24"
 description: "ジェスチャー推定を行うための少ない筋電図特徴量を用いたSVMアルゴリズム"
 tags: [
     "EMG"
