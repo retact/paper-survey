@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GR on Paper Survey</title>
-    <link>https://retact.github.io/paper-survey/tags/gr/</link>
+    <link>https://ps.retact.net/tags/gr/</link>
     <description>Recent content in GR on Paper Survey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 02 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://retact.github.io/paper-survey/tags/gr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/tags/gr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning</title>
-      <link>https://retact.github.io/paper-survey/posts/2021-06-02-deep-learning-for-electromyographic-hand-gesture-signal-classification-using-transfer-learning/</link>
+      <link>https://ps.retact.net/posts/2021-06-02-deep-learning-for-electromyographic-hand-gesture-signal-classification-using-transfer-learning/</link>
       <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://retact.github.io/paper-survey/posts/2021-06-02-deep-learning-for-electromyographic-hand-gesture-signal-classification-using-transfer-learning/</guid>
+      <guid>https://ps.retact.net/posts/2021-06-02-deep-learning-for-electromyographic-hand-gesture-signal-classification-using-transfer-learning/</guid>
       <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
 &lt;p&gt;転移学習を利用し、推定精度を向上させる手法の提案。深層学習に用いる2つのデータセットは19人,17人の健常者から取得し、NinaProDB5
 を活用しており、それぞれに対してraw EMG, spectrograms,continuous wavelet transform (CWT)を用いたネットワークを構築し推定精度を比較したところ、
@@ -22,10 +22,10 @@ CWTベースのConvNetでは17人の参加者の7つのジェスチャーに対�
     
     <item>
       <title>Learning Effective Spatial–Temporal Features for sEMG Armband-Based Gesture Recognition</title>
-      <link>https://retact.github.io/paper-survey/posts/2021-04-25-learning-effective-spatialtemporal-features-for-semg-armband-based-gesture-recognition/</link>
+      <link>https://ps.retact.net/posts/2021-04-25-learning-effective-spatialtemporal-features-for-semg-armband-based-gesture-recognition/</link>
       <pubDate>Sun, 25 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://retact.github.io/paper-survey/posts/2021-04-25-learning-effective-spatialtemporal-features-for-semg-armband-based-gesture-recognition/</guid>
+      <guid>https://ps.retact.net/posts/2021-04-25-learning-effective-spatialtemporal-features-for-semg-armband-based-gesture-recognition/</guid>
       <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
 &lt;p&gt;時間的に非定常信号であるsEMGを空間-時間特徴に基づく、ジェスチャー認識法(STF-GR)の提案。非定常多チャンネルのsEMGを分解し、定常副信号に合同変換したのち、空間的独立性と時間的定常性を生み出す。その後負の対数尤度ベースのコスト関数を用いて，最終的なジェスチャーの判定する。STF-GRはsEMGアームバンドのために設計されたもの。&lt;/p&gt;</description>
     </item>

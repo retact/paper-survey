@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EMG on Paper Survey</title>
-    <link>https://retact.github.io/paper-survey/tags/emg/</link>
+    <link>https://ps.retact.net/tags/emg/</link>
     <description>Recent content in EMG on Paper Survey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 02 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://retact.github.io/paper-survey/tags/emg/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/tags/emg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning</title>
-      <link>https://retact.github.io/paper-survey/posts/2021-06-02-deep-learning-for-electromyographic-hand-gesture-signal-classification-using-transfer-learning/</link>
+      <link>https://ps.retact.net/posts/2021-06-02-deep-learning-for-electromyographic-hand-gesture-signal-classification-using-transfer-learning/</link>
       <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://retact.github.io/paper-survey/posts/2021-06-02-deep-learning-for-electromyographic-hand-gesture-signal-classification-using-transfer-learning/</guid>
+      <guid>https://ps.retact.net/posts/2021-06-02-deep-learning-for-electromyographic-hand-gesture-signal-classification-using-transfer-learning/</guid>
       <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
 &lt;p&gt;転移学習を利用し、推定精度を向上させる手法の提案。深層学習に用いる2つのデータセットは19人,17人の健常者から取得し、NinaProDB5
 を活用しており、それぞれに対してraw EMG, spectrograms,continuous wavelet transform (CWT)を用いたネットワークを構築し推定精度を比較したところ、
@@ -22,70 +22,70 @@ CWTベースのConvNetでは17人の参加者の7つのジェスチャーに対�
     
     <item>
       <title>An Investigation of Temporally Inspired Time Domain Features for Electromyographic Pattern Recognition</title>
-      <link>https://retact.github.io/paper-survey/posts/2021-05-22-an-investigation-of-temporally-inspired-time-domain-features-for-electromyographic-pattern-recognition/</link>
+      <link>https://ps.retact.net/posts/2021-05-22-an-investigation-of-temporally-inspired-time-domain-features-for-electromyographic-pattern-recognition/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://retact.github.io/paper-survey/posts/2021-05-22-an-investigation-of-temporally-inspired-time-domain-features-for-electromyographic-pattern-recognition/</guid>
+      <guid>https://ps.retact.net/posts/2021-05-22-an-investigation-of-temporally-inspired-time-domain-features-for-electromyographic-pattern-recognition/</guid>
       <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
 &lt;p&gt;ピーク検出から導出された時間的な新しい特徴量について2つ紹介しており、この時間的特徴量精度は自己回帰係数，ヒストグラム，ゼロクロスなどといった一般的に用いられる時間的特徴よりも，それぞれ8％，11％，17％優れている分類精度を示している。またHudginsの時間領域の特徴と比較して，ロバストな特徴セットの一部として追加情報を提供することが示されている。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Navigating features: a topologically informed chart of electromyographic features space</title>
-      <link>https://retact.github.io/paper-survey/posts/2021-05-18-navigating-features-a-topologically-informed-chart-of-electromyographic-features-space/</link>
+      <link>https://ps.retact.net/posts/2021-05-18-navigating-features-a-topologically-informed-chart-of-electromyographic-features-space/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://retact.github.io/paper-survey/posts/2021-05-18-navigating-features-a-topologically-informed-chart-of-electromyographic-features-space/</guid>
+      <guid>https://ps.retact.net/posts/2021-05-18-navigating-features-a-topologically-informed-chart-of-electromyographic-features-space/</guid>
       <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
 &lt;p&gt;EMGの特徴量58個を３つのデータセットにおいて、トポロジカルな手法を用いてサブグループを探索してこのグループに基づいたクラス分類可能性、ロバスト性、複雑性などについて分類しそれぞれの特徴量抽出の評価について紹介している。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>A Framework for Hand Gesture Recognition Based on Accelerometer and EMG Sensors</title>
-      <link>https://retact.github.io/paper-survey/posts/2021-05-12-a-framework-for-hand-gesture-recognition-based-on-accelerometer-and-emg-sensors/</link>
+      <link>https://ps.retact.net/posts/2021-05-12-a-framework-for-hand-gesture-recognition-based-on-accelerometer-and-emg-sensors/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://retact.github.io/paper-survey/posts/2021-05-12-a-framework-for-hand-gesture-recognition-based-on-accelerometer-and-emg-sensors/</guid>
+      <guid>https://ps.retact.net/posts/2021-05-12-a-framework-for-hand-gesture-recognition-based-on-accelerometer-and-emg-sensors/</guid>
       <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
 &lt;p&gt;ACCとEMGセンサーの融合のために、決定木とマルチストリームHMMを用いたハンドジェスチャー認識のフレームワークの提案で様々な手首や指のジェスチャーの認識精度がこれまでの5〜10％向上した。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>A versatile embedded platform for EMG acquisition and gesture recognition</title>
-      <link>https://retact.github.io/paper-survey/posts/2021-05-09-a-versatile-embedded-platform-for-emg-acquisition-and-gesture-recognition/</link>
+      <link>https://ps.retact.net/posts/2021-05-09-a-versatile-embedded-platform-for-emg-acquisition-and-gesture-recognition/</link>
       <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://retact.github.io/paper-survey/posts/2021-05-09-a-versatile-embedded-platform-for-emg-acquisition-and-gesture-recognition/</guid>
+      <guid>https://ps.retact.net/posts/2021-05-09-a-versatile-embedded-platform-for-emg-acquisition-and-gesture-recognition/</guid>
       <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
 &lt;p&gt;ハイエンドなアクティブ筋電精度と同等の精度を示すリアルタイムジェスチャー認識のためのEMG信号の取得と処理が可能で安価なウェアラブルデバイスを開発.　デバイスはCerebroとCoretexが統合されており、SVM認識アルゴリズムを実装し，オフラインでの最先端の結果と同等の90%の精度で29.7 mWの消費電力性能を示している。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Learning Effective Spatial–Temporal Features for sEMG Armband-Based Gesture Recognition</title>
-      <link>https://retact.github.io/paper-survey/posts/2021-04-25-learning-effective-spatialtemporal-features-for-semg-armband-based-gesture-recognition/</link>
+      <link>https://ps.retact.net/posts/2021-04-25-learning-effective-spatialtemporal-features-for-semg-armband-based-gesture-recognition/</link>
       <pubDate>Sun, 25 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://retact.github.io/paper-survey/posts/2021-04-25-learning-effective-spatialtemporal-features-for-semg-armband-based-gesture-recognition/</guid>
+      <guid>https://ps.retact.net/posts/2021-04-25-learning-effective-spatialtemporal-features-for-semg-armband-based-gesture-recognition/</guid>
       <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
 &lt;p&gt;時間的に非定常信号であるsEMGを空間-時間特徴に基づく、ジェスチャー認識法(STF-GR)の提案。非定常多チャンネルのsEMGを分解し、定常副信号に合同変換したのち、空間的独立性と時間的定常性を生み出す。その後負の対数尤度ベースのコスト関数を用いて，最終的なジェスチャーの判定する。STF-GRはsEMGアームバンドのために設計されたもの。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hand Gesture Recognition Based on Semg Signal and Improved SVM Voting Method</title>
-      <link>https://retact.github.io/paper-survey/posts/2021-04-24-hand-gesture-recognition-based-on-semg-signal-and-improved-svm-voting-method/</link>
+      <link>https://ps.retact.net/posts/2021-04-24-hand-gesture-recognition-based-on-semg-signal-and-improved-svm-voting-method/</link>
       <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://retact.github.io/paper-survey/posts/2021-04-24-hand-gesture-recognition-based-on-semg-signal-and-improved-svm-voting-method/</guid>
+      <guid>https://ps.retact.net/posts/2021-04-24-hand-gesture-recognition-based-on-semg-signal-and-improved-svm-voting-method/</guid>
       <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
 &lt;p&gt;できるだけ少ない特徴量でできるだけ多くのジェスチャーパターンを認識するSVMアルゴリズムの提案。従来のvoting Methodとは異なり全てのサブセットトレーニングに対応している他分離可能性を高めた方法の提案がされている。これにより特徴ベクトル次元数は3元で12のジェスチャーを84%の認識精度で分類している。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Approximate model for interactive-tendon driven mechanism of a multiple-DoFs myoelectric prosthetic hand&#34;</title>
-      <link>https://retact.github.io/paper-survey/posts/2021-04-18-approximate-model-for-interactive-tendon-driven-mechanism-of-a-multiple-dofs-myoelectric-prosthetic-hand/</link>
+      <link>https://ps.retact.net/posts/2021-04-18-approximate-model-for-interactive-tendon-driven-mechanism-of-a-multiple-dofs-myoelectric-prosthetic-hand/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://retact.github.io/paper-survey/posts/2021-04-18-approximate-model-for-interactive-tendon-driven-mechanism-of-a-multiple-dofs-myoelectric-prosthetic-hand/</guid>
+      <guid>https://ps.retact.net/posts/2021-04-18-approximate-model-for-interactive-tendon-driven-mechanism-of-a-multiple-dofs-myoelectric-prosthetic-hand/</guid>
       <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
 &lt;p&gt;インタラクティブな腱駆動機構の筋電義手の開発とその評価。形状モデルと関節トルクの平衡モデルに基づいた腱駆動機構の制御方法の近似モデルとキャリブレーションについて。ロボットハンドの角度関係は1次関数で近似ができ、ロボットハンドの関節角度と腱ワイヤーのけん引の長さはSIN関数で近似できるPIP,DIPの角度が小さい場合MPの動きを10%以下の動きで制御可能であり、また近似モデルを用いることでDIP、PIPのの関節の動きを9-15%の誤差で制御でき、インタラクティブな腱駆動機構の義手開発に可能性がある！
 　&lt;/p&gt;</description>
@@ -93,10 +93,10 @@ CWTベースのConvNetでは17人の参加者の7つのジェスチャーに対�
     
     <item>
       <title>A myoelectric prosthetic hand with muscle synergy–based motion determination and impedance model–based biomimetic control</title>
-      <link>https://retact.github.io/paper-survey/posts/2021-04-17-a-myoelectric-prosthetic-hand-with-muscle-synergybased-motion-determination-and-impedance-modelbased-biomimetic-control/</link>
+      <link>https://ps.retact.net/posts/2021-04-17-a-myoelectric-prosthetic-hand-with-muscle-synergybased-motion-determination-and-impedance-modelbased-biomimetic-control/</link>
       <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://retact.github.io/paper-survey/posts/2021-04-17-a-myoelectric-prosthetic-hand-with-muscle-synergybased-motion-determination-and-impedance-modelbased-biomimetic-control/</guid>
+      <guid>https://ps.retact.net/posts/2021-04-17-a-myoelectric-prosthetic-hand-with-muscle-synergybased-motion-determination-and-impedance-modelbased-biomimetic-control/</guid>
       <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
 &lt;p&gt;3Dプリンタによって生成可能な義手において、筋シナジーに基づく動作決定法と生体模倣インピーダンス制御を導入することで，
 学習されていない複合動作の分類や，スムーズで直感的な義手の指の動きを実現した筋電義手

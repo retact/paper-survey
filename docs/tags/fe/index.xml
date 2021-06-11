@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FE on Paper Survey</title>
-    <link>https://retact.github.io/paper-survey/tags/fe/</link>
+    <link>https://ps.retact.net/tags/fe/</link>
     <description>Recent content in FE on Paper Survey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://retact.github.io/paper-survey/tags/fe/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/tags/fe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An Investigation of Temporally Inspired Time Domain Features for Electromyographic Pattern Recognition</title>
-      <link>https://retact.github.io/paper-survey/posts/2021-05-22-an-investigation-of-temporally-inspired-time-domain-features-for-electromyographic-pattern-recognition/</link>
+      <link>https://ps.retact.net/posts/2021-05-22-an-investigation-of-temporally-inspired-time-domain-features-for-electromyographic-pattern-recognition/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://retact.github.io/paper-survey/posts/2021-05-22-an-investigation-of-temporally-inspired-time-domain-features-for-electromyographic-pattern-recognition/</guid>
+      <guid>https://ps.retact.net/posts/2021-05-22-an-investigation-of-temporally-inspired-time-domain-features-for-electromyographic-pattern-recognition/</guid>
       <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
 &lt;p&gt;ピーク検出から導出された時間的な新しい特徴量について2つ紹介しており、この時間的特徴量精度は自己回帰係数，ヒストグラム，ゼロクロスなどといった一般的に用いられる時間的特徴よりも，それぞれ8％，11％，17％優れている分類精度を示している。またHudginsの時間領域の特徴と比較して，ロバストな特徴セットの一部として追加情報を提供することが示されている。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Navigating features: a topologically informed chart of electromyographic features space</title>
-      <link>https://retact.github.io/paper-survey/posts/2021-05-18-navigating-features-a-topologically-informed-chart-of-electromyographic-features-space/</link>
+      <link>https://ps.retact.net/posts/2021-05-18-navigating-features-a-topologically-informed-chart-of-electromyographic-features-space/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://retact.github.io/paper-survey/posts/2021-05-18-navigating-features-a-topologically-informed-chart-of-electromyographic-features-space/</guid>
+      <guid>https://ps.retact.net/posts/2021-05-18-navigating-features-a-topologically-informed-chart-of-electromyographic-features-space/</guid>
       <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
 &lt;p&gt;EMGの特徴量58個を３つのデータセットにおいて、トポロジカルな手法を用いてサブグループを探索してこのグループに基づいたクラス分類可能性、ロバスト性、複雑性などについて分類しそれぞれの特徴量抽出の評価について紹介している。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Learning Effective Spatial–Temporal Features for sEMG Armband-Based Gesture Recognition</title>
-      <link>https://retact.github.io/paper-survey/posts/2021-04-25-learning-effective-spatialtemporal-features-for-semg-armband-based-gesture-recognition/</link>
+      <link>https://ps.retact.net/posts/2021-04-25-learning-effective-spatialtemporal-features-for-semg-armband-based-gesture-recognition/</link>
       <pubDate>Sun, 25 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://retact.github.io/paper-survey/posts/2021-04-25-learning-effective-spatialtemporal-features-for-semg-armband-based-gesture-recognition/</guid>
+      <guid>https://ps.retact.net/posts/2021-04-25-learning-effective-spatialtemporal-features-for-semg-armband-based-gesture-recognition/</guid>
       <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
 &lt;p&gt;時間的に非定常信号であるsEMGを空間-時間特徴に基づく、ジェスチャー認識法(STF-GR)の提案。非定常多チャンネルのsEMGを分解し、定常副信号に合同変換したのち、空間的独立性と時間的定常性を生み出す。その後負の対数尤度ベースのコスト関数を用いて，最終的なジェスチャーの判定する。STF-GRはsEMGアームバンドのために設計されたもの。&lt;/p&gt;</description>
     </item>
