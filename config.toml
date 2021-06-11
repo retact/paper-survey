@@ -3,8 +3,10 @@ languageCode = "ja"
 title = "Paper Survey"
 theme = "noteworthy"
 enableRobotsTXT = true
-paginate = 4 # Set the number of posts to show before overflowing to the next page.
+paginate = 10 # Set the number of posts to show before overflowing to the next page.
 summaryLength = 4 # Configure how long the post summary should be on the homepage.
+publishDir = "docs"
+
 
 # Add your Google Analytics identifier: UA-XXXXXXXX-X
 googleAnalytics = "" 
