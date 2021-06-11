@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no"/>
+
+    <title>Navigating features: a topologically informed chart of electromyographic features space | Paper Survey</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/paper-survey/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/paper-survey/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/paper-survey/favicon-16x16.png">
+    <link rel="manifest" href="/paper-survey/manifest.json">
+    <link rel="mask-icon" href="/paper-survey/safari-pinned-tab.svg" color="#FF3DB4">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    
+    
+    <link rel="stylesheet" href="https://retact.github.io/paper-survey/css/main.min.23d04cc0a70db6d882e7ba32360ff4424c03ce32417ed4743ca9e463f3661c86.css"/>
+
+    
+    
+    
+
+    
+    
+ 
+    </head>
+
+    <body>
+        
+<nav>
+  <header>
+    <div class="site-title">
+        <a href="/paper-survey/">Paper Survey</a>
+    </div>  
+</header>
+
+  <div class="nav-menu">
+  
+    <a class="color-link nav-link" href="https://retact.net/">retact</a>
+  
+    <a class="color-link nav-link" href="/paper-survey/about/">About</a>
+  
+    <a class="color-link nav-link" href="/paper-survey/tags/">Tags</a>
+  
+    <a class="color-link nav-link" href="/paper-survey/archives/">Archives</a>
+  
+  <a class="color-link nav-link" href="https://retact.github.io/paper-survey/index.xml" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
+</div>
+<footer class="footer">
+	<div class="social-icons">
+        
+
+    
+
+    
+    <a class="social-icon" href="https://twitter.com/_retact" target="_blank" rel="noopener" title="Twitter">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M8.991284,24.971612 C19.180436,24.971612 24.752372,16.530224 24.752372,9.210524 C24.752372,8.970656 24.747512,8.731868 24.736496,8.494376 C25.818008,7.712564 26.758256,6.737 27.5,5.62622 C26.507372,6.067076 25.439252,6.364292 24.318752,6.498212 C25.462472,5.812628 26.340512,4.727444 26.754584,3.434036 C25.684088,4.068536 24.499004,4.53002 23.23724,4.778528 C22.226468,3.701876 20.786828,3.028388 19.193828,3.028388 C16.134404,3.028388 13.653536,5.509256 13.653536,8.567492 C13.653536,9.0023 13.702244,9.424904 13.797176,9.830552 C9.19346,9.599108 5.11106,7.39472 2.3792,4.04294 C1.903028,4.861364 1.629032,5.812628 1.629032,6.827072 C1.629032,8.74904 2.606972,10.445612 4.094024,11.438132 C3.185528,11.41016 2.331788,11.160464 1.585184,10.745096 C1.583888,10.768208 1.583888,10.791428 1.583888,10.815728 C1.583888,13.49888 3.493652,15.738584 6.028088,16.246508 C5.562932,16.373084 5.07326,16.44134 4.56782,16.44134 C4.210988,16.44134 3.863876,16.406024 3.526484,16.34144 C4.231724,18.542264 6.276596,20.143796 8.701412,20.18894 C6.805148,21.674696 4.416836,22.56008 1.821488,22.56008 C1.374476,22.56008 0.93362,22.534592 0.5,22.4834 C2.951708,24.054476 5.862524,24.971612 8.991284,24.971612"></path>
+        </svg>
+    </a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+    <a class="social-icon" href="https://github.com/retact" target="_blank" rel="noopener" title="GitHub">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M13.9988029,1.32087331 C6.82105037,1.32087331 1,7.14112562 1,14.3212723 C1,20.0649109 4.72454649,24.9370678 9.89038951,26.6560892 C10.5408085,26.7757983 10.7778323,26.374374 10.7778323,26.0296121 C10.7778323,25.7215609 10.7666595,24.9035493 10.760275,23.8189856 C7.14426471,24.6042767 6.38131925,22.0760223 6.38131925,22.0760223 C5.78995672,20.5740732 4.93762853,20.1742451 4.93762853,20.1742451 C3.75729765,19.3682044 5.02701126,19.3841656 5.02701126,19.3841656 C6.33183953,19.4759425 7.01817121,20.7241085 7.01817121,20.7241085 C8.17775254,22.7104801 10.0611744,22.1366749 10.8017741,21.8038838 C10.919887,20.9643246 11.2558703,20.3913175 11.6269683,20.066507 C8.74038491,19.7385043 5.70536235,18.6228163 5.70536235,13.6413251 C5.70536235,12.2223743 6.21213051,11.0611968 7.04370914,10.1530044 C6.90963504,9.82420367 6.46351945,8.50181809 7.17139875,6.71256734 C7.17139875,6.71256734 8.26234691,6.36301702 10.7459099,8.04532771 C11.78259,7.75642995 12.8950858,7.61277914 14.000399,7.60719272 C15.1049142,7.61277914 16.2166119,7.75642995 17.2548881,8.04532771 C19.736855,6.36301702 20.8262071,6.71256734 20.8262071,6.71256734 C21.5356825,8.50181809 21.0895669,9.82420367 20.9562909,10.1530044 C21.7894656,11.0611968 22.2922435,12.2223743 22.2922435,13.6413251 C22.2922435,18.6355852 19.2524325,19.734514 16.3570705,20.0561322 C16.8231376,20.4575564 17.2389269,21.2508282 17.2389269,22.4638795 C17.2389269,24.2012564 17.2229657,25.603448 17.2229657,26.0296121 C17.2229657,26.3775663 17.4575954,26.7821827 18.116793,26.6552912 C23.2786458,24.9322794 27,20.0633148 27,14.3212723 C27,7.14112562 21.1789496,1.32087331 13.9988029,1.32087331"></path>
+        </svg>
+    </a>
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+	<p><a href="https://github.com/kimcc/hugo-theme-noteworthy" target="_blank" rel="noopener">Noteworthy theme</a></p>
+	<p><a href="https://gohugo.io" target="_blank" rel="noopener">Built with Hugo</a></p>
+
+	<script src="https://retact.github.io/paper-survey/js/main.min.c1aee25a817e9beb1f9c4afd9d62311227a7f5e46720e404dc1dda97281f47f2.js" integrity="sha256-wa7iWoF+m+sfnEr9nWIxEien9eRnIOQE3B3alygfR/I=" crossorigin="anonymous"></script>
+</footer>
+</nav>
+
+        <div id="content" class="content-container">
+        
+
+<h1 class="post-title">Navigating features: a topologically informed chart of electromyographic features space</h1>
+    
+    <time>May 18, 2021</time>
+    
+    <div>
+        <p>
+        <h2 id="1-どんなもの">1. どんなもの？</h2>
+<p>EMGの特徴量58個を３つのデータセットにおいて、トポロジカルな手法を用いてサブグループを探索してこのグループに基づいたクラス分類可能性、ロバスト性、複雑性などについて分類しそれぞれの特徴量抽出の評価について紹介している。</p>
+<h2 id="2-先行研究と比べてどこがすごいの">2. 先行研究と比べてどこがすごいの？</h2>
+<p>● 特徴空間の探索を簡単にするMapper法という解析手法を用いて最適閾値を求めている.<br>
+● 最適な特徴セットを自動的に選ぶのではなくトポロジカルデータ解析(TDA)を用いることで原理的でロバストな特徴空間マップを示している。<br>
+● Mapperを用いて選択した手法には全ての特徴量を用いた場合と同程度の分類精度を達成できるという仮説に対して、SFSという手法と比較して検証をしている。</p>
+<h2 id="21-なんとなくわからなかったことおもったこと">2.1 なんとなくわからなかったこと,おもったこと</h2>
+<p>● Mapper法は古典的なクラスタリングや次元削減では検出できないサブグループを特定する。 <br>
+● この実験においてはデータセットの収集を行っていない。(そういう査読論文もある)<br>
+● 特徴量抽出や分類におけるロバスト性を示すには色々なデータセットを使う必要がある(それはそう)<br>
+● データのセグメンテーション，特徴抽出，分類，コントローラの処理、セグメンテーションあまり理解できていない。<br>
+● 冗長性?の観点から特徴量比較はおこなわれていないらしい<br>
+● 特徴量の標準化についてあまりよく知らない,<br>
+● EMGの特徴機能は4つのグループに分けられていて、信号の振幅とパワーの特徴グループ（信号の大きさを示している）非線形の複雑さと周波数情報の機能グループ,時系列モデリング機能グループ,ユニークなグループ</p>
+<h2 id="3-技術や手法のキモはどこにある">3. 技術や手法の&quot;キモ&quot;はどこにある？</h2>
+<p>● 58種類、計81個の特徴量比較<br>
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5746577/table/RSIF20170734TB1/?report=objectonly">A list of EMG feature extraction techniques.</a><br>
+● 被験者のEMGチャンネルごとの特徴量スケーリングを行い、特徴量の標準化を行った。 またk-近傍法でのクラス分類ではユークリッド距離測定ですべての特徴の寄与を均等化を行っている</p>
+<p>● TDAは「形状」を抽出するアプローチによって、高次元，高変動性，低S/N比，時間依存性，非線形性を有する複雑なデータから，関連する洞察を抽出することを可能になる<br>
+1,生データを点群に変換<br>
+2,複数のフィルタ関数を用いでMOとMI区間に分割<br>
+3,クラスタリングアルゴリズムによってサブデータセットからクラスタリング<br>
+4,トポロジカルネットワークの構築<br>
+→これによってトポロジカルネットワークのノードがEMGグループの特徴のサブグループをみなし、機能グループなどに分けられる.<br>
+k-NN距離が低いと同じサブグループの相関が強く、このサブグループから1つだけ選択する必要があり、大きい場合はこれらのサブグループから複数の特徴を用いることができる。<br>
+<img src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5746577/bin/rsif20170734-g1.jpg" alt="Figure1"><br>
+(1)下の部分はは、信号の大きさやパワーを推定するMAVやRMSなどで構成されている。<br>
+(2)左腕は、周波数情報を含む特徴量のZC、MDFなどと、時系列の非線形性や複雑性を測定するための特徴量のエントロピー、フラクタル次元などで構成されている<br>
+(3)右部分と2つの切断されたノードは、時系列モデリング機能（ARなど）で構成されている<br>
+(4)中央のコアと1つの切断されたノードは、ユニークな情報を提供する特徴のセットを描いていてHISTやMAVSなど<br>
+<img src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5746577/bin/rsif20170734-g2.jpg" alt="Figure2"></p>
+<p>●それぞれの特徴量の評価結果は表のようになっている。<br>
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5746577/table/RSIF20170734TB2/?report=objectonly">The classification performance of 81 features using different evaluation methods: DBI, FLDI, SVM and LDA for the three EMG datasets</a></p>
+<p>● 各機能グループから代表的な特徴を特定するために特徴評価法を使用している。<br>
+1,分離可能性尺度の使用<br>
+2,特徴空間の分類</p>
+<h2 id="4-どうやって有効だと検証した">4. どうやって有効だと検証した？</h2>
+<p>● トポロジカルチャートが、効果的なSFSの設計と同等の精度を示すためにTDの特徴量セット MAV, WL, ZC, SSC, MAVS 　　AR+RMS 特徴量セット。AR および RMS 　　　　AR+CC+WL特徴セット AR, CC, WL　　の3つのデータセットを用いて再評価した。</p>
+<h2 id="5-議論はあるか">5. 議論はあるか？</h2>
+<h2 id="6-次に読むべき論文はあるか">6. 次に読むべき論文はあるか？</h2>
+<p>-引用していた筋電のデータセットが乗っている論文
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417412004654">Toward improved control of prosthetic fingers using surface electromyogram (EMG) signals</a><br>
+-筋電パターン認識のロバスト性を改善するためのEMG評価について
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417413001395">EMG feature evaluation for improving myoelectric pattern recognition robustness</a><br>
+-高次元データを単純複合体で抽出するMapperの手法について<br>
+<a href="http://diglib.eg.org/bitstream/handle/10.2312/SPBG.SPBG07.091-100/091-100.pdf?sequence=1&amp;isAllowed=y">Topological methods for the analysis of high dimensional data sets and 3D object recognition. In Proc. Eurographics Symposium on Point-Based Graphics </a></p>
+<h3 id="論文情報リンク">論文情報・リンク</h3>
+<ul>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5746577/">Navigating features: a topologically informed chart of electromyographic features space
+Angkoon Phinyomark, Rami N. Khushaba, Esther Ibáñez-Marcelo, Alice Patania, Erik Scheme, Giovanni Petri
+J R Soc Interface. 2017 Dec; 14(137): 20170734. Published online 2017 Dec 6. doi: 10.1098/rsif.2017.0734</a></li>
+</ul>
+        </p>
+    </div>
+    
+
+    
+
+    <div class="page-footer">
+        
+        <hr class="footer-divider">
+        
+            <a class="tag" href="/tags/emg">#EMG</a>
+        
+            <a class="tag" href="/tags/fe">#FE</a>
+        
+      
+    </div>
+
+
+        
+
+<link rel="stylesheet" type="text/css" href="/paper-survey/css/katex.min.css" crossorigin="anonymous">
+<script type="text/javascript" src="/paper-survey/js/katex.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/paper-survey/js/auto-render.min.js"onload="renderMathInElement(document.body);" crossorigin="anonymous"></script>
+
+        </div>
+        <footer class="footer-mobile">
+	<div class="social-icons">
+        
+
+    
+
+    
+    <a class="social-icon" href="https://twitter.com/_retact" target="_blank" rel="noopener" title="Twitter">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M8.991284,24.971612 C19.180436,24.971612 24.752372,16.530224 24.752372,9.210524 C24.752372,8.970656 24.747512,8.731868 24.736496,8.494376 C25.818008,7.712564 26.758256,6.737 27.5,5.62622 C26.507372,6.067076 25.439252,6.364292 24.318752,6.498212 C25.462472,5.812628 26.340512,4.727444 26.754584,3.434036 C25.684088,4.068536 24.499004,4.53002 23.23724,4.778528 C22.226468,3.701876 20.786828,3.028388 19.193828,3.028388 C16.134404,3.028388 13.653536,5.509256 13.653536,8.567492 C13.653536,9.0023 13.702244,9.424904 13.797176,9.830552 C9.19346,9.599108 5.11106,7.39472 2.3792,4.04294 C1.903028,4.861364 1.629032,5.812628 1.629032,6.827072 C1.629032,8.74904 2.606972,10.445612 4.094024,11.438132 C3.185528,11.41016 2.331788,11.160464 1.585184,10.745096 C1.583888,10.768208 1.583888,10.791428 1.583888,10.815728 C1.583888,13.49888 3.493652,15.738584 6.028088,16.246508 C5.562932,16.373084 5.07326,16.44134 4.56782,16.44134 C4.210988,16.44134 3.863876,16.406024 3.526484,16.34144 C4.231724,18.542264 6.276596,20.143796 8.701412,20.18894 C6.805148,21.674696 4.416836,22.56008 1.821488,22.56008 C1.374476,22.56008 0.93362,22.534592 0.5,22.4834 C2.951708,24.054476 5.862524,24.971612 8.991284,24.971612"></path>
+        </svg>
+    </a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+    <a class="social-icon" href="https://github.com/retact" target="_blank" rel="noopener" title="GitHub">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M13.9988029,1.32087331 C6.82105037,1.32087331 1,7.14112562 1,14.3212723 C1,20.0649109 4.72454649,24.9370678 9.89038951,26.6560892 C10.5408085,26.7757983 10.7778323,26.374374 10.7778323,26.0296121 C10.7778323,25.7215609 10.7666595,24.9035493 10.760275,23.8189856 C7.14426471,24.6042767 6.38131925,22.0760223 6.38131925,22.0760223 C5.78995672,20.5740732 4.93762853,20.1742451 4.93762853,20.1742451 C3.75729765,19.3682044 5.02701126,19.3841656 5.02701126,19.3841656 C6.33183953,19.4759425 7.01817121,20.7241085 7.01817121,20.7241085 C8.17775254,22.7104801 10.0611744,22.1366749 10.8017741,21.8038838 C10.919887,20.9643246 11.2558703,20.3913175 11.6269683,20.066507 C8.74038491,19.7385043 5.70536235,18.6228163 5.70536235,13.6413251 C5.70536235,12.2223743 6.21213051,11.0611968 7.04370914,10.1530044 C6.90963504,9.82420367 6.46351945,8.50181809 7.17139875,6.71256734 C7.17139875,6.71256734 8.26234691,6.36301702 10.7459099,8.04532771 C11.78259,7.75642995 12.8950858,7.61277914 14.000399,7.60719272 C15.1049142,7.61277914 16.2166119,7.75642995 17.2548881,8.04532771 C19.736855,6.36301702 20.8262071,6.71256734 20.8262071,6.71256734 C21.5356825,8.50181809 21.0895669,9.82420367 20.9562909,10.1530044 C21.7894656,11.0611968 22.2922435,12.2223743 22.2922435,13.6413251 C22.2922435,18.6355852 19.2524325,19.734514 16.3570705,20.0561322 C16.8231376,20.4575564 17.2389269,21.2508282 17.2389269,22.4638795 C17.2389269,24.2012564 17.2229657,25.603448 17.2229657,26.0296121 C17.2229657,26.3775663 17.4575954,26.7821827 18.116793,26.6552912 C23.2786458,24.9322794 27,20.0633148 27,14.3212723 C27,7.14112562 21.1789496,1.32087331 13.9988029,1.32087331"></path>
+        </svg>
+    </a>
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+	<div class="footer-mobile-links">
+		<p><a href="https://github.com/kimcc/hugo-theme-noteworthy" target="_blank" rel="noopener">Noteworthy theme</a></p>
+		<span class="divider-bar">|</span>
+		<p><a href="https://gohugo.io" target="_blank" rel="noopener">Built with Hugo</a></p>
+	</div>
+
+	<script src="https://retact.github.io/paper-survey/js/main.min.c1aee25a817e9beb1f9c4afd9d62311227a7f5e46720e404dc1dda97281f47f2.js" integrity="sha256-wa7iWoF+m+sfnEr9nWIxEien9eRnIOQE3B3alygfR/I=" crossorigin="anonymous"></script>
+</footer>
+    </body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no"/>
+
+    <title>An Investigation of Temporally Inspired Time Domain Features for Electromyographic Pattern Recognition | Paper Survey</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/paper-survey/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/paper-survey/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/paper-survey/favicon-16x16.png">
+    <link rel="manifest" href="/paper-survey/manifest.json">
+    <link rel="mask-icon" href="/paper-survey/safari-pinned-tab.svg" color="#FF3DB4">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    
+    
+    <link rel="stylesheet" href="https://retact.github.io/paper-survey/css/main.min.23d04cc0a70db6d882e7ba32360ff4424c03ce32417ed4743ca9e463f3661c86.css"/>
+
+    
+    
+    
+
+    
+    
+ 
+    </head>
+
+    <body>
+        
+<nav>
+  <header>
+    <div class="site-title">
+        <a href="/paper-survey/">Paper Survey</a>
+    </div>  
+</header>
+
+  <div class="nav-menu">
+  
+    <a class="color-link nav-link" href="https://retact.net/">retact</a>
+  
+    <a class="color-link nav-link" href="/paper-survey/about/">About</a>
+  
+    <a class="color-link nav-link" href="/paper-survey/tags/">Tags</a>
+  
+    <a class="color-link nav-link" href="/paper-survey/archives/">Archives</a>
+  
+  <a class="color-link nav-link" href="https://retact.github.io/paper-survey/index.xml" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
+</div>
+<footer class="footer">
+	<div class="social-icons">
+        
+
+    
+
+    
+    <a class="social-icon" href="https://twitter.com/_retact" target="_blank" rel="noopener" title="Twitter">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M8.991284,24.971612 C19.180436,24.971612 24.752372,16.530224 24.752372,9.210524 C24.752372,8.970656 24.747512,8.731868 24.736496,8.494376 C25.818008,7.712564 26.758256,6.737 27.5,5.62622 C26.507372,6.067076 25.439252,6.364292 24.318752,6.498212 C25.462472,5.812628 26.340512,4.727444 26.754584,3.434036 C25.684088,4.068536 24.499004,4.53002 23.23724,4.778528 C22.226468,3.701876 20.786828,3.028388 19.193828,3.028388 C16.134404,3.028388 13.653536,5.509256 13.653536,8.567492 C13.653536,9.0023 13.702244,9.424904 13.797176,9.830552 C9.19346,9.599108 5.11106,7.39472 2.3792,4.04294 C1.903028,4.861364 1.629032,5.812628 1.629032,6.827072 C1.629032,8.74904 2.606972,10.445612 4.094024,11.438132 C3.185528,11.41016 2.331788,11.160464 1.585184,10.745096 C1.583888,10.768208 1.583888,10.791428 1.583888,10.815728 C1.583888,13.49888 3.493652,15.738584 6.028088,16.246508 C5.562932,16.373084 5.07326,16.44134 4.56782,16.44134 C4.210988,16.44134 3.863876,16.406024 3.526484,16.34144 C4.231724,18.542264 6.276596,20.143796 8.701412,20.18894 C6.805148,21.674696 4.416836,22.56008 1.821488,22.56008 C1.374476,22.56008 0.93362,22.534592 0.5,22.4834 C2.951708,24.054476 5.862524,24.971612 8.991284,24.971612"></path>
+        </svg>
+    </a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+    <a class="social-icon" href="https://github.com/retact" target="_blank" rel="noopener" title="GitHub">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M13.9988029,1.32087331 C6.82105037,1.32087331 1,7.14112562 1,14.3212723 C1,20.0649109 4.72454649,24.9370678 9.89038951,26.6560892 C10.5408085,26.7757983 10.7778323,26.374374 10.7778323,26.0296121 C10.7778323,25.7215609 10.7666595,24.9035493 10.760275,23.8189856 C7.14426471,24.6042767 6.38131925,22.0760223 6.38131925,22.0760223 C5.78995672,20.5740732 4.93762853,20.1742451 4.93762853,20.1742451 C3.75729765,19.3682044 5.02701126,19.3841656 5.02701126,19.3841656 C6.33183953,19.4759425 7.01817121,20.7241085 7.01817121,20.7241085 C8.17775254,22.7104801 10.0611744,22.1366749 10.8017741,21.8038838 C10.919887,20.9643246 11.2558703,20.3913175 11.6269683,20.066507 C8.74038491,19.7385043 5.70536235,18.6228163 5.70536235,13.6413251 C5.70536235,12.2223743 6.21213051,11.0611968 7.04370914,10.1530044 C6.90963504,9.82420367 6.46351945,8.50181809 7.17139875,6.71256734 C7.17139875,6.71256734 8.26234691,6.36301702 10.7459099,8.04532771 C11.78259,7.75642995 12.8950858,7.61277914 14.000399,7.60719272 C15.1049142,7.61277914 16.2166119,7.75642995 17.2548881,8.04532771 C19.736855,6.36301702 20.8262071,6.71256734 20.8262071,6.71256734 C21.5356825,8.50181809 21.0895669,9.82420367 20.9562909,10.1530044 C21.7894656,11.0611968 22.2922435,12.2223743 22.2922435,13.6413251 C22.2922435,18.6355852 19.2524325,19.734514 16.3570705,20.0561322 C16.8231376,20.4575564 17.2389269,21.2508282 17.2389269,22.4638795 C17.2389269,24.2012564 17.2229657,25.603448 17.2229657,26.0296121 C17.2229657,26.3775663 17.4575954,26.7821827 18.116793,26.6552912 C23.2786458,24.9322794 27,20.0633148 27,14.3212723 C27,7.14112562 21.1789496,1.32087331 13.9988029,1.32087331"></path>
+        </svg>
+    </a>
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+	<p><a href="https://github.com/kimcc/hugo-theme-noteworthy" target="_blank" rel="noopener">Noteworthy theme</a></p>
+	<p><a href="https://gohugo.io" target="_blank" rel="noopener">Built with Hugo</a></p>
+
+	<script src="https://retact.github.io/paper-survey/js/main.min.c1aee25a817e9beb1f9c4afd9d62311227a7f5e46720e404dc1dda97281f47f2.js" integrity="sha256-wa7iWoF+m+sfnEr9nWIxEien9eRnIOQE3B3alygfR/I=" crossorigin="anonymous"></script>
+</footer>
+</nav>
+
+        <div id="content" class="content-container">
+        
+
+<h1 class="post-title">An Investigation of Temporally Inspired Time Domain Features for Electromyographic Pattern Recognition</h1>
+    
+    <time>May 22, 2021</time>
+    
+    <div>
+        <p>
+        <h2 id="1-どんなもの">1. どんなもの？</h2>
+<p>ピーク検出から導出された時間的な新しい特徴量について2つ紹介しており、この時間的特徴量精度は自己回帰係数，ヒストグラム，ゼロクロスなどといった一般的に用いられる時間的特徴よりも，それぞれ8％，11％，17％優れている分類精度を示している。またHudginsの時間領域の特徴と比較して，ロバストな特徴セットの一部として追加情報を提供することが示されている。</p>
+<h2 id="2-先行研究と比べてどこがすごいの">2. 先行研究と比べてどこがすごいの？</h2>
+<p>● 平均絶対値（MAV），波形長（WL），ゼロクロス（ZC），スロープ・サイン・チェンジ（SSC），自己回帰係数（AR），ヒストグラム（HIST）などの特徴量によってパターン認識が行われてきたが、動作タスクになると複雑で非定常な筋電分類は難しい。また周波数特徴に関しても追加の計算コストや汎用性の低下を招くため実用的ではないため、時系列情報から導出された特徴に基づく時間領域の特徴をっつうじて分類精度を向上させた。</p>
+<h2 id="21-知ったこと思ったこと">2.1 知ったこと思ったこと</h2>
+<p>● バーストとはおそらくバースト信号のことで時間領域のごく一部にのみ、信号（正弦波、方形波、三角波など）が存在し、それ以外の領域には信号が存在しないもののことを指している。<br>
+● エンベロープは信号の包括線のことを指し、信号のレベル変動を知りたいときに役に立つ。<br>
+● ARは時系列モデリングの特徴</p>
+<h2 id="3-技術や手法のキモはどこにある">3. 技術や手法の&quot;キモ&quot;はどこにある？</h2>
+<p>● データ処理とセグメンテーション<br>
+1000Hzにダウンサンプリングされ，電力線干渉，アーチファクト，高周波ノイズを除去するために，次数4のデジタルバターワース有限インパルス応答（FIR）フィルタを用いて，ノッチ（50Hz）およびバンドパス（20-500Hz）フィルタリングが行われる。また、特徴抽出とパターン分類のために，125ミリ秒でオーバーラップした250ミリ秒の解析ウィンドウを用いてセグメント化する</p>
+<p>● EMG信号の時間的エンベロープを作成<br>
+時間に応じた筋活動を表現し，EMGバーストの局所的な特徴をより明確にする<br>
+<img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/8471725/8512178/8513427/phiny1-23141964-small.gif" alt="Figure 2"><br>
+　first burst時系列では，前処理したEMGデータを2乗した後，64msのハミング窓関数を持つ移動平均FIRフィルタに通し,Peak Valley時系列では，EMGデータを2msのハミング窓を持つ移動平均FIRフィルタに通す。<br>
+● peaks/valleysの局所的な特性を計算するため、<br>
+（1）振幅値，（2）振幅エクスカーション，（3）突出度，（4）幅，（5）相対時間値などの特性タイプを検討した。<br>
+<img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/8471725/8512178/8513427/phiny2-23141964-small.gif" alt="Figure 3"><br>
+● 抽出された特徴量の時系列から要約統計量を計算
+○ peak time series<br>
+最大値と平均値でそれぞれの特徴量においてAMxP, EMxP, PMxP, WMxP, TMxP,AMnP, EMnP, PMnP, WMnP, TMnP<br>
+○ valley time series<br>
+AMxV，EMxV，PMxV，WMxV，TMxV,AMnV，EMnV，PMnV，WMnV，TMnV</p>
+<p><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/8471725/8512178/8513427/phiny3-23141964-small.gif" alt="Figure3"><br>
+特徴量の中で最も高い性能を示したのはPMnVおよびPMnP特徴量であり，次いでAMnVおよびAMnP特徴量であり、PMnVおよびPMnPは，一般的に使用されているZCおよびSSCを約17〜22％，AR時系列モデリングを約8％，HISTを約11％（いずれもp＜0.05）上回る性能を示した。<br>
+● SVM分類器を用いて交差検証分類率によってそれぞれの分類精度を評価している。
+● 比較特徴量はMAVとWL,ZC, SSC,4次のAR,HIST<br>
+● SFSによって使用する特徴量を決定する。
+Hudginsの特徴セット（MAV，WL，ZC，SSC)を再構築して、WL、ZC、PMnV、およびARの特徴量セットでは、データセットによっては上回る精度を示した。<br>
+<img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/8471725/8512178/8513427/phiny.t2-23141964-small.gif" alt="Figure 4"></p>
+<h2 id="4-どうやって有効だと検証した">4. どうやって有効だと検証した？</h2>
+<p>● 68名の健常者と経橈骨切断者が手、手首、指、把持動作を行った複数のEMGデータを用いて、提案した特徴量の性能を評価した.</p>
+<h2 id="5-議論はあるか">5. 議論はあるか？</h2>
+<p>● 比較している特徴量セットが少ない。<br>
+● 動的なデータセットを使えていない。<br>
+● 純な静的収縮と複雑な動的収縮の両方で見られるEMG活性化の時間的シーケンスにおいて、EMGパターン認識のための未開発の可能性が残っている</p>
+<h2 id="6-次に読むべき論文はあるか">6. 次に読むべき論文はあるか？</h2>
+<p>-<a href="https://ieeexplore.ieee.org/document/9197671">Arvind Gautam, Madhuri Panwar, Archana Wankhede, Sridhar P. Arjunan, Ganesh R. Naik, Amit Acharyya, Dinesh K. Kumar, &ldquo;Locomo-Net: A Low -Complex Deep Learning Framework for sEMG-Based Hand Movement Recognition for Prosthetic Control&rdquo;, Translational Engineering in Health and Medicine IEEE Journal of, vol. 8, pp. 1-12, 2020.</a></p>
+<h3 id="論文情報リンク">論文情報・リンク</h3>
+<ul>
+<li><a href="https://ieeexplore.ieee.org/document/8513427">A. Phinyomark and E. Scheme, &ldquo;An Investigation of Temporally Inspired Time Domain Features for Electromyographic Pattern Recognition,&rdquo; 2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), 2018, pp. 5236-5240, doi: 10.1109/EMBC.2018.8513427.
+</a></li>
+</ul>
+        </p>
+    </div>
+    
+
+    
+
+    <div class="page-footer">
+        
+        <hr class="footer-divider">
+        
+            <a class="tag" href="/tags/emg">#EMG</a>
+        
+            <a class="tag" href="/tags/fe">#FE</a>
+        
+      
+    </div>
+
+
+        
+
+<link rel="stylesheet" type="text/css" href="/paper-survey/css/katex.min.css" crossorigin="anonymous">
+<script type="text/javascript" src="/paper-survey/js/katex.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/paper-survey/js/auto-render.min.js"onload="renderMathInElement(document.body);" crossorigin="anonymous"></script>
+
+        </div>
+        <footer class="footer-mobile">
+	<div class="social-icons">
+        
+
+    
+
+    
+    <a class="social-icon" href="https://twitter.com/_retact" target="_blank" rel="noopener" title="Twitter">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M8.991284,24.971612 C19.180436,24.971612 24.752372,16.530224 24.752372,9.210524 C24.752372,8.970656 24.747512,8.731868 24.736496,8.494376 C25.818008,7.712564 26.758256,6.737 27.5,5.62622 C26.507372,6.067076 25.439252,6.364292 24.318752,6.498212 C25.462472,5.812628 26.340512,4.727444 26.754584,3.434036 C25.684088,4.068536 24.499004,4.53002 23.23724,4.778528 C22.226468,3.701876 20.786828,3.028388 19.193828,3.028388 C16.134404,3.028388 13.653536,5.509256 13.653536,8.567492 C13.653536,9.0023 13.702244,9.424904 13.797176,9.830552 C9.19346,9.599108 5.11106,7.39472 2.3792,4.04294 C1.903028,4.861364 1.629032,5.812628 1.629032,6.827072 C1.629032,8.74904 2.606972,10.445612 4.094024,11.438132 C3.185528,11.41016 2.331788,11.160464 1.585184,10.745096 C1.583888,10.768208 1.583888,10.791428 1.583888,10.815728 C1.583888,13.49888 3.493652,15.738584 6.028088,16.246508 C5.562932,16.373084 5.07326,16.44134 4.56782,16.44134 C4.210988,16.44134 3.863876,16.406024 3.526484,16.34144 C4.231724,18.542264 6.276596,20.143796 8.701412,20.18894 C6.805148,21.674696 4.416836,22.56008 1.821488,22.56008 C1.374476,22.56008 0.93362,22.534592 0.5,22.4834 C2.951708,24.054476 5.862524,24.971612 8.991284,24.971612"></path>
+        </svg>
+    </a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+    <a class="social-icon" href="https://github.com/retact" target="_blank" rel="noopener" title="GitHub">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M13.9988029,1.32087331 C6.82105037,1.32087331 1,7.14112562 1,14.3212723 C1,20.0649109 4.72454649,24.9370678 9.89038951,26.6560892 C10.5408085,26.7757983 10.7778323,26.374374 10.7778323,26.0296121 C10.7778323,25.7215609 10.7666595,24.9035493 10.760275,23.8189856 C7.14426471,24.6042767 6.38131925,22.0760223 6.38131925,22.0760223 C5.78995672,20.5740732 4.93762853,20.1742451 4.93762853,20.1742451 C3.75729765,19.3682044 5.02701126,19.3841656 5.02701126,19.3841656 C6.33183953,19.4759425 7.01817121,20.7241085 7.01817121,20.7241085 C8.17775254,22.7104801 10.0611744,22.1366749 10.8017741,21.8038838 C10.919887,20.9643246 11.2558703,20.3913175 11.6269683,20.066507 C8.74038491,19.7385043 5.70536235,18.6228163 5.70536235,13.6413251 C5.70536235,12.2223743 6.21213051,11.0611968 7.04370914,10.1530044 C6.90963504,9.82420367 6.46351945,8.50181809 7.17139875,6.71256734 C7.17139875,6.71256734 8.26234691,6.36301702 10.7459099,8.04532771 C11.78259,7.75642995 12.8950858,7.61277914 14.000399,7.60719272 C15.1049142,7.61277914 16.2166119,7.75642995 17.2548881,8.04532771 C19.736855,6.36301702 20.8262071,6.71256734 20.8262071,6.71256734 C21.5356825,8.50181809 21.0895669,9.82420367 20.9562909,10.1530044 C21.7894656,11.0611968 22.2922435,12.2223743 22.2922435,13.6413251 C22.2922435,18.6355852 19.2524325,19.734514 16.3570705,20.0561322 C16.8231376,20.4575564 17.2389269,21.2508282 17.2389269,22.4638795 C17.2389269,24.2012564 17.2229657,25.603448 17.2229657,26.0296121 C17.2229657,26.3775663 17.4575954,26.7821827 18.116793,26.6552912 C23.2786458,24.9322794 27,20.0633148 27,14.3212723 C27,7.14112562 21.1789496,1.32087331 13.9988029,1.32087331"></path>
+        </svg>
+    </a>
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+</div>
+
+
+
+
+	<div class="footer-mobile-links">
+		<p><a href="https://github.com/kimcc/hugo-theme-noteworthy" target="_blank" rel="noopener">Noteworthy theme</a></p>
+		<span class="divider-bar">|</span>
+		<p><a href="https://gohugo.io" target="_blank" rel="noopener">Built with Hugo</a></p>
+	</div>
+
+	<script src="https://retact.github.io/paper-survey/js/main.min.c1aee25a817e9beb1f9c4afd9d62311227a7f5e46720e404dc1dda97281f47f2.js" integrity="sha256-wa7iWoF+m+sfnEr9nWIxEien9eRnIOQE3B3alygfR/I=" crossorigin="anonymous"></script>
+</footer>
+    </body>
+</html>

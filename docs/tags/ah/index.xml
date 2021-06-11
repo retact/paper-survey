@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AH on Paper Survey</title>
+    <link>https://retact.github.io/paper-survey/tags/ah/</link>
+    <description>Recent content in AH on Paper Survey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 18 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://retact.github.io/paper-survey/tags/ah/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Approximate model for interactive-tendon driven mechanism of a multiple-DoFs myoelectric prosthetic hand&#34;</title>
+      <link>https://retact.github.io/paper-survey/posts/2021-04-18-approximate-model-for-interactive-tendon-driven-mechanism-of-a-multiple-dofs-myoelectric-prosthetic-hand/</link>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://retact.github.io/paper-survey/posts/2021-04-18-approximate-model-for-interactive-tendon-driven-mechanism-of-a-multiple-dofs-myoelectric-prosthetic-hand/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;インタラクティブな腱駆動機構の筋電義手の開発とその評価。形状モデルと関節トルクの平衡モデルに基づいた腱駆動機構の制御方法の近似モデルとキャリブレーションについて。ロボットハンドの角度関係は1次関数で近似ができ、ロボットハンドの関節角度と腱ワイヤーのけん引の長さはSIN関数で近似できるPIP,DIPの角度が小さい場合MPの動きを10%以下の動きで制御可能であり、また近似モデルを用いることでDIP、PIPのの関節の動きを9-15%の誤差で制御でき、インタラクティブな腱駆動機構の義手開発に可能性がある！
+　&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A myoelectric prosthetic hand with muscle synergy–based motion determination and impedance model–based biomimetic control</title>
+      <link>https://retact.github.io/paper-survey/posts/2021-04-17-a-myoelectric-prosthetic-hand-with-muscle-synergybased-motion-determination-and-impedance-modelbased-biomimetic-control/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://retact.github.io/paper-survey/posts/2021-04-17-a-myoelectric-prosthetic-hand-with-muscle-synergybased-motion-determination-and-impedance-modelbased-biomimetic-control/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;3Dプリンタによって生成可能な義手において、筋シナジーに基づく動作決定法と生体模倣インピーダンス制御を導入することで，
+学習されていない複合動作の分類や，スムーズで直感的な義手の指の動きを実現した筋電義手
+オープンソースの義手を改造して比較的簡単に設計されている。
+また義手の制御自体にはPID制御を用いている。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Soft-Robotic Approach to Anthropomorphic Robotic Hand Dexterity</title>
+      <link>https://retact.github.io/paper-survey/posts/2021-04-17-a-soft-robotic-approach-to-anthropomorphic-robotic-hand-dexterity/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://retact.github.io/paper-survey/posts/2021-04-17-a-soft-robotic-approach-to-anthropomorphic-robotic-hand-dexterity/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;ソフトロボットハンドBCL-26ではGRASP分類法や親指の器用さにおいて機能的な器用さを実現し、すべての指の独立制御を可能にした。
+フレキシブルケーブル、弾性リンクなどを用いて実現した受動的なしなやかさ（パッシブコンプライアンス）を導入することによって本来機械的に要求される要件を大幅き軽減することができ、
+指の可動域が大幅に上昇した。26自由度のロボットハンドについて性能検証した。ただし、ソフトアクチュエータにおけるスピードについては限界がある。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Development of five-finger multi-DoF myoelectric hands with a power allocation mechanism</title>
+      <link>https://retact.github.io/paper-survey/posts/2021-04-16-development-of-five-finger-multi-dof-myoelectric-hands-with-a-power-allocation-mechanism/</link>
+      <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://retact.github.io/paper-survey/posts/2021-04-16-development-of-five-finger-multi-dof-myoelectric-hands-with-a-power-allocation-mechanism/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;ロボットハンドのピンチ動作の冗長な自由度を利用した握力を向上させるPower allocation mechanismによって、
+指先の力がこれを用いていないものと比べて64%上昇させることができ、3本指で1kgの物体を持ち上げた。
+サイズや重量を大幅に変えることなく、自由度が高く安定した状態で握力を向上できる。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

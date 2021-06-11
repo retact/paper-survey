@@ -1,3 +1,9 @@
+---
+date: 2021-06-11
+type: section
+title: "About"
+---
+
 # paper-survey
 
 ## Rules
@@ -6,14 +12,24 @@
 
 ## Format
 ```md
+
 ---
-title:  "論文タイトル"
-date:   YYYY-MM-DD
-categories: ARL EMG...
+author: "retact"
+title: "論文タイトル"
+date: "YYYY-MM-DD"
+description: "description"
+tags: [
+    "AH",
+    "EMG",
+    "RE"
+]
 ---
+
 
 ## 1. どんなもの？
 
+<!--more-->  
+ 
 ## 2. 先行研究と比べてどこがすごいの？
 
 ## 3. 技術や手法の"キモ"はどこにある？

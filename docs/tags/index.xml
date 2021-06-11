@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Paper Survey</title>
+    <link>https://retact.github.io/paper-survey/tags/</link>
+    <description>Recent content in Tags on Paper Survey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 02 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://retact.github.io/paper-survey/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EMG</title>
+      <link>https://retact.github.io/paper-survey/tags/emg/</link>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://retact.github.io/paper-survey/tags/emg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GR</title>
+      <link>https://retact.github.io/paper-survey/tags/gr/</link>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://retact.github.io/paper-survey/tags/gr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FE</title>
+      <link>https://retact.github.io/paper-survey/tags/fe/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://retact.github.io/paper-survey/tags/fe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AB</title>
+      <link>https://retact.github.io/paper-survey/tags/ab/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://retact.github.io/paper-survey/tags/ab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AH</title>
+      <link>https://retact.github.io/paper-survey/tags/ah/</link>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://retact.github.io/paper-survey/tags/ah/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
