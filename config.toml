@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://retact.github.io/paper-survey/"
 languageCode = "ja"
 title = "Paper Survey"
 theme = "noteworthy"

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AB on Paper Survey</title>
+    <link>https://retact.github.io/paper-survey/tags/ab/</link>
+    <description>Recent content in AB on Paper Survey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 09 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://retact.github.io/paper-survey/tags/ab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A versatile embedded platform for EMG acquisition and gesture recognition</title>
+      <link>https://retact.github.io/paper-survey/posts/2021-05-09-a-versatile-embedded-platform-for-emg-acquisition-and-gesture-recognition/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://retact.github.io/paper-survey/posts/2021-05-09-a-versatile-embedded-platform-for-emg-acquisition-and-gesture-recognition/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;ハイエンドなアクティブ筋電精度と同等の精度を示すリアルタイムジェスチャー認識のためのEMG信号の取得と処理が可能で安価なウェアラブルデバイスを開発.　デバイスはCerebroとCoretexが統合されており、SVM認識アルゴリズムを実装し，オフラインでの最先端の結果と同等の90%の精度で29.7 mWの消費電力性能を示している。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
