@@ -4,7 +4,26 @@ date:   YYYY-MM-DD
 categories: AH EMG Others
 ---
 
+
+---
+author: "retact"
+title: "論文タイトル"
+date: "YYYY-MM-DD"
+description: "description"
+tags: [
+    "AH",
+    "EMG",
+    "FE",
+    "GR"
+]
+
+---
+
 ## 1. どんなもの？
+
+
+
+<!--more-->  
 
 ## 2. 先行研究と比べてどこがすごいの？
 
