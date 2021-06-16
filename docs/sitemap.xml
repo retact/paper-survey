@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ps.retact.net/posts/2021-06-15-a-low-cost-wireless-3-d-printed-custom-armband-for-semg-hand-gesture-recognition/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ps.retact.net/tags/ab/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ps.retact.net/tags/emg/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ps.retact.net/tags/fe/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ps.retact.net/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ps.retact.net/posts/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ps.retact.net/tags/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ps.retact.net/archives/</loc>
     <lastmod>2021-06-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,25 +32,10 @@
     <loc>https://ps.retact.net/posts/2021-06-02-deep-learning-for-electromyographic-hand-gesture-signal-classification-using-transfer-learning/</loc>
     <lastmod>2021-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ps.retact.net/tags/emg/</loc>
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ps.retact.net/tags/gr/</loc>
     <lastmod>2021-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ps.retact.net/</loc>
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ps.retact.net/posts/</loc>
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ps.retact.net/tags/</loc>
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ps.retact.net/posts/2021-05-22-an-investigation-of-temporally-inspired-time-domain-features-for-electromyographic-pattern-recognition/</loc>
-    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ps.retact.net/tags/fe/</loc>
     <lastmod>2021-05-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ps.retact.net/posts/2021-05-18-navigating-features-a-topologically-informed-chart-of-electromyographic-features-space/</loc>
@@ -39,9 +45,6 @@
     <lastmod>2021-05-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ps.retact.net/posts/2021-05-09-a-versatile-embedded-platform-for-emg-acquisition-and-gesture-recognition/</loc>
-    <lastmod>2021-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ps.retact.net/tags/ab/</loc>
     <lastmod>2021-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ps.retact.net/posts/2021-04-25-learning-effective-spatialtemporal-features-for-semg-armband-based-gesture-recognition/</loc>

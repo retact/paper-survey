@@ -6,7 +6,17 @@
     <description>Recent content in FE on Paper Survey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/tags/fe/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/tags/fe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Low-Cost, Wireless, 3-D-Printed Custom Armband for sEMG Hand Gesture Recognition</title>
+      <link>https://ps.retact.net/posts/2021-06-15-a-low-cost-wireless-3-d-printed-custom-armband-for-semg-hand-gesture-recognition/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ps.retact.net/posts/2021-06-15-a-low-cost-wireless-3-d-printed-custom-armband-for-semg-hand-gesture-recognition/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;1000Hzのサンプリングレートで10チャンネルの計測能力を持ち、60gで製作費が150ドルの安価なEMGアームバンドの提案。市販されているMyoアームバンドとLDA(Hudins&#39; Time-Domain Featureset)による分類性能と生データ周波数データによってアームバンドの性能を比較している。また比較の際には22人の健常者に11のジェスチャーをそれぞれ4セット取得したデータセットを作っている。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>An Investigation of Temporally Inspired Time Domain Features for Electromyographic Pattern Recognition</title>
       <link>https://ps.retact.net/posts/2021-05-22-an-investigation-of-temporally-inspired-time-domain-features-for-electromyographic-pattern-recognition/</link>
