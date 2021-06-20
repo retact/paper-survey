@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Paper Survey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 16 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building the Ninapro Database: A Resource for the Biorobotics Community</title>
+      <link>https://ps.retact.net/posts/2021-06-20-building-the-ninapro-database-a-resource-for-the-biorobotics-community/</link>
+      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ps.retact.net/posts/2021-06-20-building-the-ninapro-database-a-resource-for-the-biorobotics-community/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;筋電図のデータセットで、ASCIIフォーマットで27人の健常者の52のジェスチャーの運動データのsEMGデータが含まれており、数年に渡って100人以上の健常者と50人以上の切断者のデータが追加されることが計画されているため、撮影設定，実験プロトコル,データの保存形式などが示されている。またこのデータベースに対してLeast-Squares SVMによる分類評価も行っている。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>A Low-Cost, Wireless, 3-D-Printed Custom Armband for sEMG Hand Gesture Recognition</title>
       <link>https://ps.retact.net/posts/2021-06-15-a-low-cost-wireless-3-d-printed-custom-armband-for-semg-hand-gesture-recognition/</link>
