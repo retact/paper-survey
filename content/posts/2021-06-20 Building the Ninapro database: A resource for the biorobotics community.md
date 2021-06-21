@@ -41,7 +41,8 @@ tags: [
  ● 分類誤差の標準偏差が比較的大きいことから被験者ごとに分類性能に大きなばらつきがあり、分類タスクの確実性を高めるためには多数の被験者が必要  
 
 ## 6. 次に読むべき論文はあるか？
- -AHPについてもっとも明確に述べている論文  
+ 
+ AHPについてもっとも明確に述べている論文  
  [Control of Multifunctional Prosthetic Hands by Processing the Electromyographic Signal](https://www.dl.begellhouse.com/journals/4b27cbfc562e21b8,5b51f41866ab7f77,5d2cbc051cfa16a4.html)  
  -
 ### 論文情報・リンク
