@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Paper Survey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 20 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A 3D Printed, Adjustable Armband for Electromyography Based Finger Movement Classification With Haptic Feedback</title>
+      <link>https://ps.retact.net/posts/2021-06-21-a-3d-printed-adjustable-armband-for-electromyography-based-finger-movement-classification-with-haptic-feedback/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ps.retact.net/posts/2021-06-21-a-3d-printed-adjustable-armband-for-electromyography-based-finger-movement-classification-with-haptic-feedback/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;1本の指のタッピング動作を検出するために，電極の配置を完全に調整できる3Dプリントされた低コストのアームバンドの提案。9本の指の動きを検出するために，8チャンネルのSEMG信号から抽出した特徴量を用いて機械学習を行い、500msウィンドウの特徴量を用いたKNNでは71%、200msのきれいなデータのサブセットから抽出した特徴量を用いたKNNでは93%の精度を記録した。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Building the Ninapro Database: A Resource for the Biorobotics Community</title>
       <link>https://ps.retact.net/posts/2021-06-20-building-the-ninapro-database-a-resource-for-the-biorobotics-community/</link>
