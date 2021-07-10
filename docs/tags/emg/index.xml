@@ -6,7 +6,18 @@
     <description>Recent content in EMG on Paper Survey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/tags/emg/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/tags/emg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artificial Neural Network Classifier in Comparison With LDA and LS SVM Classifiers to Recognize 52 Hand Postures and Movements</title>
+      <link>https://ps.retact.net/posts/2021-07-05-artificial-neural-network-classifier-in-comparison-with-lda-and-ls-svm-classifiers-to-recognize-52-hand-postures-and-movements/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ps.retact.net/posts/2021-07-05-artificial-neural-network-classifier-in-comparison-with-lda-and-ls-svm-classifiers-to-recognize-52-hand-postures-and-movements/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;NINAPRO5のデータを使って，MLPとLDAとLS-SVMの分類器に対してMAV, IAV, RMS, WL, E, ER1, ER2, CCなどと言った時間的特徴を入力し，それぞれの組み合わせの52種類のジェスチャ分類を比較している．全ての特徴を用いてMLPでは96.34%の平均精度，LDAに対してMAVとCCを用いた分類で平均精度84.23%，LS-SVMに対してIAV+MAV+RMS+WLで85.19%の平均精度が算出された．&lt;br&gt;
+またE，ER1，ER2のような単一の特徴量を用いた場合，MLPは他の2つの分類器と比較して性能が低下すると言った結果も示している．&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>A 3D Printed, Adjustable Armband for Electromyography Based Finger Movement Classification With Haptic Feedback</title>
       <link>https://ps.retact.net/posts/2021-06-21-a-3d-printed-adjustable-armband-for-electromyography-based-finger-movement-classification-with-haptic-feedback/</link>
