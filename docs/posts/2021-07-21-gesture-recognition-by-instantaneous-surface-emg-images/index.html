@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no"/>
 
-    <title> | Paper Survey</title>
+    <title>Gesture Recognition by Instantaneous Surface EMG Images | Paper Survey</title>
     
     <link  rel = "apple-touch-icon"  size = "57x57"  href = "/apple-icon-57x57.png" > 
     <link  rel = "apple-touch-icon"  size = "60x60"  href = "/ apple -icon-60x60.png " > 
@@ -144,151 +144,50 @@
         <div id="content" class="content-container">
         
 
-  <h1>
-    Archives
-  </h1>
-  <div>
-     
-      
-      
-          <h3>2021</h3> 
+<h1 class="post-title">Gesture Recognition by Instantaneous Surface EMG Images</h1>
+    
+    <time>July 21, 2021</time>
+    
+    <div>
+        <p>
+        <h2 id="1-どんなもの">1. どんなもの？</h2>
+<p>特定の瞬間のHD-sEMGによるジェスチャー認識法.高密度のsEMGから画像データを生成しDeepLearningによって識別する実験をおこなったところ，窓付き特徴量を用いず8つのジェスチャー識別において，89.3%の識別精度が得られ，52個のジェスチャー分類においても先行研究より優れた結果を得られた．</p>
+<h2 id="2-先行研究と比べてどこがすごいの">2. 先行研究と比べてどこがすごいの？</h2>
+<p>● 今回使用する瞬間sEMG画像はこれまで利用されていたRojasらのsEMGマップと比べて，フレーム単位のジェスチャー認識に対応するために作られたものであり，ジェスチャー識別において優れた結果を示している． 　</p>
+<h2 id="3-技術や手法のキモはどこにある">3. 技術や手法の&quot;キモ&quot;はどこにある？</h2>
+<p>● 瞬間的なsEMG画像を用いたtest-bedの概略<br>
+HD-sEMG信号の各サンプリング・モーメントの瞬時値を，電極の位置関係に応じて2次元のグリッドに配置し，mVから線形変換を行うことで瞬間的なsEMG画像を生成している．<br>
+<img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fsrep36571/MediaObjects/41598_2016_Article_BFsrep36571_Fig2_HTML.jpg?as=webp" alt="Figure 1"><br>
+Schematic illustration of gesture recognition by instantaneous sEMG images</p>
+<p>● 非侵襲的なウェアラブルデバイスを開発<br>
+7.5×10.05mmの電極間距離で2×8のマトリクス電極を用いて，128チャンネルで16bit1000Hzでサンプリングされる．</p>
+<h2 id="4-どうやって有効だと検証した">4. どうやって有効だと検証した？</h2>
+<p>● CapgMyoデータベースを作成し，脳波画像と脳波差分画像において，それぞれ，1枚で89.3%，84.6% 150フレームと149枚の差分で99.5%,99.4%の精度を示した．<br>
+● ConvNetを従来の識別法のMLP,KNN,SVM,RF,LDAに変えて，古典的なフレームワークでも実用的か検証した．<br>
+● CSL-HDEMGデータセットを用いて27の指のジェスチャー分類を行なった結果，全てのセグメントの多数決による分類において96.8%の精度を示した．<br>
+● Ninaproデータベース35において瞬間的な脳波画像の認識精度は，DB1で78.9％，DB2で76.1％の精度を示した．</p>
+<h2 id="5-議論はあるか">5. 議論はあるか？</h2>
+<p>● Convnetを利用した分類は計算リソースが高い．<br>
+● 計測する人によってのパターン認識における生物的な理解は深まっていない．<br>
+● 動的なジェスチャー認識の実用化</p>
+<h3 id="論文情報リンク">論文情報・リンク</h3>
+<ul>
+<li><a href="https://www.nature.com/articles/srep36571">Geng, W., Du, Y., Jin, W. et al. Gesture recognition by instantaneous surface EMG images. Sci Rep 6, 36571 (2016). https://doi.org/10.1038/srep36571</a></li>
+</ul>
+        </p>
+    </div>
+    
 
-          <ul class="archives-list"> 
-            
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jul 21</span>
-                    <span>
-                      <a href="/posts/2021-07-21-gesture-recognition-by-instantaneous-surface-emg-images/">Gesture Recognition by Instantaneous Surface EMG Images</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jul 5</span>
-                    <span>
-                      <a href="/posts/2021-07-05-artificial-neural-network-classifier-in-comparison-with-lda-and-ls-svm-classifiers-to-recognize-52-hand-postures-and-movements/">Artificial Neural Network Classifier in Comparison With LDA and LS SVM Classifiers to Recognize 52 Hand Postures and Movements</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jun 21</span>
-                    <span>
-                      <a href="/posts/2021-06-21-a-3d-printed-adjustable-armband-for-electromyography-based-finger-movement-classification-with-haptic-feedback/">A 3D Printed, Adjustable Armband for Electromyography Based Finger Movement Classification With Haptic Feedback</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jun 20</span>
-                    <span>
-                      <a href="/posts/2021-06-20-building-the-ninapro-database-a-resource-for-the-biorobotics-community/">Building the Ninapro Database: A Resource for the Biorobotics Community</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jun 16</span>
-                    <span>
-                      <a href="/posts/2021-06-15-a-low-cost-wireless-3-d-printed-custom-armband-for-semg-hand-gesture-recognition/">A Low-Cost, Wireless, 3-D-Printed Custom Armband for sEMG Hand Gesture Recognition</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jun 2</span>
-                    <span>
-                      <a href="/posts/2021-06-02-deep-learning-for-electromyographic-hand-gesture-signal-classification-using-transfer-learning/">Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">May 22</span>
-                    <span>
-                      <a href="/posts/2021-05-22-an-investigation-of-temporally-inspired-time-domain-features-for-electromyographic-pattern-recognition/">An Investigation of Temporally Inspired Time Domain Features for Electromyographic Pattern Recognition</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">May 18</span>
-                    <span>
-                      <a href="/posts/2021-05-18-navigating-features-a-topologically-informed-chart-of-electromyographic-features-space/">Navigating features: a topologically informed chart of electromyographic features space</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">May 12</span>
-                    <span>
-                      <a href="/posts/2021-05-12-a-framework-for-hand-gesture-recognition-based-on-accelerometer-and-emg-sensors/">A Framework for Hand Gesture Recognition Based on Accelerometer and EMG Sensors</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">May 9</span>
-                    <span>
-                      <a href="/posts/2021-05-09-a-versatile-embedded-platform-for-emg-acquisition-and-gesture-recognition/">A versatile embedded platform for EMG acquisition and gesture recognition</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Apr 25</span>
-                    <span>
-                      <a href="/posts/2021-04-25-learning-effective-spatialtemporal-features-for-semg-armband-based-gesture-recognition/">Learning Effective Spatial–Temporal Features for sEMG Armband-Based Gesture Recognition</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Apr 24</span>
-                    <span>
-                      <a href="/posts/2021-04-24-hand-gesture-recognition-based-on-semg-signal-and-improved-svm-voting-method/">Hand Gesture Recognition Based on Semg Signal and Improved SVM Voting Method</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Apr 18</span>
-                    <span>
-                      <a href="/posts/2021-04-18-approximate-model-for-interactive-tendon-driven-mechanism-of-a-multiple-dofs-myoelectric-prosthetic-hand/">Approximate model for interactive-tendon driven mechanism of a multiple-DoFs myoelectric prosthetic hand&#34;</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Apr 17</span>
-                    <span>
-                      <a href="/posts/2021-04-17-a-soft-robotic-approach-to-anthropomorphic-robotic-hand-dexterity/">A Soft-Robotic Approach to Anthropomorphic Robotic Hand Dexterity</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Apr 17</span>
-                    <span>
-                      <a href="/posts/2021-04-17-a-myoelectric-prosthetic-hand-with-muscle-synergybased-motion-determination-and-impedance-modelbased-biomimetic-control/">A myoelectric prosthetic hand with muscle synergy–based motion determination and impedance model–based biomimetic control</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Apr 16</span>
-                    <span>
-                      <a href="/posts/2021-04-16-development-of-five-finger-multi-dof-myoelectric-hands-with-a-power-allocation-mechanism/">Development of five-finger multi-DoF myoelectric hands with a power allocation mechanism</a>
-                    </span>
-                  </li>
-              
-          </ul>
-      
-  </div>
+    
 
-  <div class="page-footer"></div>
+    <div class="page-footer">
+        
+        <hr class="footer-divider">
+        
+            <a class="tag" href="/tags/emg">#EMG</a>
+        
+      
+    </div>
 
 
         

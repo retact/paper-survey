@@ -6,7 +6,17 @@
     <description>Recent content on Paper Survey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 05 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gesture Recognition by Instantaneous Surface EMG Images</title>
+      <link>https://ps.retact.net/posts/2021-07-21-gesture-recognition-by-instantaneous-surface-emg-images/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ps.retact.net/posts/2021-07-21-gesture-recognition-by-instantaneous-surface-emg-images/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;特定の瞬間のHD-sEMGによるジェスチャー認識法.高密度のsEMGから画像データを生成しDeepLearningによって識別する実験をおこなったところ，窓付き特徴量を用いず8つのジェスチャー識別において，89.3%の識別精度が得られ，52個のジェスチャー分類においても先行研究より優れた結果を得られた．&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Artificial Neural Network Classifier in Comparison With LDA and LS SVM Classifiers to Recognize 52 Hand Postures and Movements</title>
       <link>https://ps.retact.net/posts/2021-07-05-artificial-neural-network-classifier-in-comparison-with-lda-and-ls-svm-classifiers-to-recognize-52-hand-postures-and-movements/</link>
