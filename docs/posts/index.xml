@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Paper Survey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 29 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jul 2021 14:55:35 +0900</lastBuildDate><atom:link href="https://ps.retact.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Determining the Optimal Window Length for Pattern Recognition Based Myoelectric Control: Balancing the Competing Effects of Classification Error and Controller Delay</title>
+      <link>https://ps.retact.net/posts/2021-07-30-determining-the-optimal-window-length-for-pattern-recognition-based-myoelectric-control-balancing-the-competing-effects-of-classification-error-and-controller-delay/</link>
+      <pubDate>Fri, 30 Jul 2021 14:55:35 +0900</pubDate>
+      
+      <guid>https://ps.retact.net/posts/2021-07-30-determining-the-optimal-window-length-for-pattern-recognition-based-myoelectric-control-balancing-the-competing-effects-of-classification-error-and-controller-delay/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;筋電図のパターン認識において，分類誤差とコントローラの遅延とリアルタイムの制御性から解析ウィンドウの長さを50ms-550msの中でどの値が最適かを調べている．実験はTarget Achievement Controlによって評価され，ユーザーのパフォーマンスは分類誤差が小さいほど，向上し，遅延量が大きくなるほど低下するトレードオフの関係であることがわかっている．その上でこの研究で用いたシステムでの最適な解析ウィンドウの長さは150-250msであることがわかった．&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>An Online SEMG Motion Classification Framework for Tele Operating the Robotic Hand</title>
       <link>https://ps.retact.net/posts/2021-07-29-an-online-semg-motion-classification-framework-for-tele-operating-the-robotic-hand/</link>
