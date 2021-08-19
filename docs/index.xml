@@ -6,7 +6,17 @@
     <description>Recent content on Paper Survey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 30 Jul 2021 14:55:35 +0900</lastBuildDate><atom:link href="https://ps.retact.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design of Continuous EMG Classification Approaches Towards the Control of a Robotic Exoskeleton in Reaching Movements</title>
+      <link>https://ps.retact.net/posts/2021-08-11-design-of-continuous-emg-classification-approaches-towards-the-control-of-a-robotic-exoskeleton-in-reaching-movements/</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ps.retact.net/posts/2021-08-11-design-of-continuous-emg-classification-approaches-towards-the-control-of-a-robotic-exoskeleton-in-reaching-movements/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;実用段階では連続的なオンライン制御が行われていない中，8人の健常者の上腕の筋電図を用いて８種類の動きを分類する擬似オンラインアプリケーションを開発し，その精度を70％以上としている．またこの論文では3つのウィンドウサイズによる分類精度の影響についても述べられている．&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Determining the Optimal Window Length for Pattern Recognition Based Myoelectric Control: Balancing the Competing Effects of Classification Error and Controller Delay</title>
       <link>https://ps.retact.net/posts/2021-07-30-determining-the-optimal-window-length-for-pattern-recognition-based-myoelectric-control-balancing-the-competing-effects-of-classification-error-and-controller-delay/</link>
