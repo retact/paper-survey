@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no"/>
 
-    <title> | Paper Survey</title>
+    <title>Investigation of Different Approaches to Real Time Control of Prosthetic Hands With Electromyography Signals | Paper Survey</title>
     
     <link  rel = "apple-touch-icon"  size = "57x57"  href = "/apple-icon-57x57.png" > 
     <link  rel = "apple-touch-icon"  size = "60x60"  href = "/ apple -icon-60x60.png " > 
@@ -144,191 +144,55 @@
         <div id="content" class="content-container">
         
 
-  <h1>
-    Archives
-  </h1>
-  <div>
-     
-      
-      
-          <h3>2021</h3> 
+<h1 class="post-title">Investigation of Different Approaches to Real Time Control of Prosthetic Hands With Electromyography Signals</h1>
+    
+    <time>August 30, 2021</time>
+    
+    <div>
+        <p>
+        <h2 id="1-どんなもの">1. どんなもの？</h2>
+<p>ACCを用いたマルチモーダルによる筋電パターン認識システムの評価と感覚フィードバックの考案をしている．筋電パターン認識では300msで応答するソフトウェアハードウェアシステムを開発しており，従来の分類精度と同等の結果を得られている，またフィードバックシステムにおいても把持する物体の質量が変わっても把持し続けられる結果を得ている．</p>
+<h2 id="2-先行研究と比べてどこがすごいの">2. 先行研究と比べてどこがすごいの？</h2>
+<p>● 筋電パターン認識においては，CNNを用いた分類精度には及ばないものの，MLP,RFを用いた手法において，従来と同等以上の分類精度を示している．<br>
+● フィードバックシステムにおいてはスリップ検出システムによって，質量が変わるという外乱においても把持し続けられるようなシステムを考案している，</p>
+<h2 id="3-技術や手法のキモはどこにある">3. 技術や手法の&quot;キモ&quot;はどこにある？</h2>
+<p>● マルチモーダル処理<br>
+ACCと組み合わせることによって12クラスの分類を向上させている.
+またPCAとLDAの時限削減を行い比較したところ，PCAを用いた手法の分類精度が低下したことからPCAでは有用な情報が失われることがわかった.</p>
+<p>● フィードバックシステム<br>
+圧力センサと滑りセンサを用いて，物体を把持しているか，また滑っていないかを検出流フィードバックシステムを考案している.</p>
+<p>● 時間的特徴の抽出<br>
+分類において15個の時間的特徴から，Pearson&rsquo;s Correlation Coefficientsを用いて，7つの特徴を選択ている.</p>
+<h2 id="4-どうやって有効だと検証した">4. どうやって有効だと検証した？</h2>
+<p>● 筋電パターン認識においては，従来の分類と比較するために，NinaProDB2,とDB3を用いて，50分類との比較と，独自のkudaProを用いて12分類の性能評価を行い従来手法と同等の精度であることを示している．<br>
+● フィードバックシステムにおいては，trackerを用いたビデオ分析によって．3つの物体，計30回の試行を元に把持する精度を従来精度と同等であることを示している．またカップに水を注ぐことで，フィードバックによる把持力の変化についても示している．</p>
+<h2 id="5-議論はあるか">5. 議論はあるか？</h2>
+<p>● モータのトルクによる義手そのものの把持力がないこと．<br>
+● CNNなどを用いたリアルタイム分類を行うこと．<br>
+● 切断者の分類においては精度が低いこと.</p>
+<h2 id="6-次に読むべき論文はあるか">6. 次に読むべき論文はあるか？</h2>
+<p>● 筋電パターン認識におけるマルチモーダルアプローチ<br>
+-<a href="https://ieeexplore.ieee.org/document/6091054">A. Fougner, E. Scheme, A. D. C. Chan, K. Englehart and Ø. Stavdahl, &ldquo;A multi-modal approach for hand motion classification using surface EMG and accelerometers,&rdquo; 2011 Annual International Conference of the IEEE Engineering in Medicine and Biology Society, 2011, pp. 4247-4250, doi: 10.1109/IEMBS.2011.6091054</a></p>
+<h3 id="論文情報リンク">論文情報・リンク</h3>
+<ul>
+<li><a href="https://ieeexplore.ieee.org/document/9494435">J. O. d. O. De Souza, M. D. Bloedow, F. Rubo, R. M. De Figueiredo, G. Pessin and S. J. Rigo, &ldquo;Investigation of Different Approaches to Real-Time Control of Prosthetic Hands with Electromyography Signals,&rdquo; in IEEE Sensors Journal, doi: 10.1109/JSEN.2021.3099744.</a></li>
+</ul>
+        </p>
+    </div>
+    
 
-          <ul class="archives-list"> 
-            
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Aug 30</span>
-                    <span>
-                      <a href="/posts/2021-08-30-investigation-of-different-approaches-to-real-time-control-of-prosthetic-hands-with-electromyography-signals/">Investigation of Different Approaches to Real Time Control of Prosthetic Hands With Electromyography Signals</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Aug 11</span>
-                    <span>
-                      <a href="/posts/2021-08-11-design-of-continuous-emg-classification-approaches-towards-the-control-of-a-robotic-exoskeleton-in-reaching-movements/">Design of Continuous EMG Classification Approaches Towards the Control of a Robotic Exoskeleton in Reaching Movements</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jul 30</span>
-                    <span>
-                      <a href="/posts/2021-07-30-determining-the-optimal-window-length-for-pattern-recognition-based-myoelectric-control-balancing-the-competing-effects-of-classification-error-and-controller-delay/">Determining the Optimal Window Length for Pattern Recognition Based Myoelectric Control: Balancing the Competing Effects of Classification Error and Controller Delay</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jul 29</span>
-                    <span>
-                      <a href="/posts/2021-07-29-an-online-semg-motion-classification-framework-for-tele-operating-the-robotic-hand/">An Online SEMG Motion Classification Framework for Tele Operating the Robotic Hand</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jul 28</span>
-                    <span>
-                      <a href="/posts/2021-07-28-a-preliminary-analysis-of-analysis-window-size-and-voting-size-with-a-time-delay-for-a-robust-real-time-semg-pattern-recognition/">A Preliminary Analysis of Analysis Window Size and Voting Size With a Time Delay for a Robust Real Time SEMG Pattern Recognition</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jul 21</span>
-                    <span>
-                      <a href="/posts/2021-07-21-gesture-recognition-by-instantaneous-surface-emg-images/">Gesture Recognition by Instantaneous Surface EMG Images</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jul 5</span>
-                    <span>
-                      <a href="/posts/2021-07-05-artificial-neural-network-classifier-in-comparison-with-lda-and-ls-svm-classifiers-to-recognize-52-hand-postures-and-movements/">Artificial Neural Network Classifier in Comparison With LDA and LS SVM Classifiers to Recognize 52 Hand Postures and Movements</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jun 21</span>
-                    <span>
-                      <a href="/posts/2021-06-21-a-3d-printed-adjustable-armband-for-electromyography-based-finger-movement-classification-with-haptic-feedback/">A 3D Printed, Adjustable Armband for Electromyography Based Finger Movement Classification With Haptic Feedback</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jun 20</span>
-                    <span>
-                      <a href="/posts/2021-06-20-building-the-ninapro-database-a-resource-for-the-biorobotics-community/">Building the Ninapro Database: A Resource for the Biorobotics Community</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jun 16</span>
-                    <span>
-                      <a href="/posts/2021-06-15-a-low-cost-wireless-3-d-printed-custom-armband-for-semg-hand-gesture-recognition/">A Low-Cost, Wireless, 3-D-Printed Custom Armband for sEMG Hand Gesture Recognition</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jun 2</span>
-                    <span>
-                      <a href="/posts/2021-06-02-deep-learning-for-electromyographic-hand-gesture-signal-classification-using-transfer-learning/">Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">May 22</span>
-                    <span>
-                      <a href="/posts/2021-05-22-an-investigation-of-temporally-inspired-time-domain-features-for-electromyographic-pattern-recognition/">An Investigation of Temporally Inspired Time Domain Features for Electromyographic Pattern Recognition</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">May 18</span>
-                    <span>
-                      <a href="/posts/2021-05-18-navigating-features-a-topologically-informed-chart-of-electromyographic-features-space/">Navigating features: a topologically informed chart of electromyographic features space</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">May 12</span>
-                    <span>
-                      <a href="/posts/2021-05-12-a-framework-for-hand-gesture-recognition-based-on-accelerometer-and-emg-sensors/">A Framework for Hand Gesture Recognition Based on Accelerometer and EMG Sensors</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">May 9</span>
-                    <span>
-                      <a href="/posts/2021-05-09-a-versatile-embedded-platform-for-emg-acquisition-and-gesture-recognition/">A versatile embedded platform for EMG acquisition and gesture recognition</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Apr 25</span>
-                    <span>
-                      <a href="/posts/2021-04-25-learning-effective-spatialtemporal-features-for-semg-armband-based-gesture-recognition/">Learning Effective Spatial–Temporal Features for sEMG Armband-Based Gesture Recognition</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Apr 24</span>
-                    <span>
-                      <a href="/posts/2021-04-24-hand-gesture-recognition-based-on-semg-signal-and-improved-svm-voting-method/">Hand Gesture Recognition Based on Semg Signal and Improved SVM Voting Method</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Apr 18</span>
-                    <span>
-                      <a href="/posts/2021-04-18-approximate-model-for-interactive-tendon-driven-mechanism-of-a-multiple-dofs-myoelectric-prosthetic-hand/">Approximate model for interactive-tendon driven mechanism of a multiple-DoFs myoelectric prosthetic hand&#34;</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Apr 17</span>
-                    <span>
-                      <a href="/posts/2021-04-17-a-soft-robotic-approach-to-anthropomorphic-robotic-hand-dexterity/">A Soft-Robotic Approach to Anthropomorphic Robotic Hand Dexterity</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Apr 17</span>
-                    <span>
-                      <a href="/posts/2021-04-17-a-myoelectric-prosthetic-hand-with-muscle-synergybased-motion-determination-and-impedance-modelbased-biomimetic-control/">A myoelectric prosthetic hand with muscle synergy–based motion determination and impedance model–based biomimetic control</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Apr 16</span>
-                    <span>
-                      <a href="/posts/2021-04-16-development-of-five-finger-multi-dof-myoelectric-hands-with-a-power-allocation-mechanism/">Development of five-finger multi-DoF myoelectric hands with a power allocation mechanism</a>
-                    </span>
-                  </li>
-              
-          </ul>
-      
-  </div>
+    
 
-  <div class="page-footer"></div>
+    <div class="page-footer">
+        
+        <hr class="footer-divider">
+        
+            <a class="tag" href="/tags/emg">#EMG</a>
+        
+            <a class="tag" href="/tags/real-time">#Real-Time</a>
+        
+      
+    </div>
 
 
         
