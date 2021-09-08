@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no"/>
 
-    <title>Tags | Paper Survey</title>
+    <title>Real Time Pattern Recognition for Hand Gesture Based on ANN and Surface EMG | Paper Survey</title>
     
     <link  rel = "apple-touch-icon"  size = "57x57"  href = "/apple-icon-57x57.png" > 
     <link  rel = "apple-touch-icon"  size = "60x60"  href = "/ apple -icon-60x60.png " > 
@@ -38,8 +38,6 @@
     
     
  
-    
-    <link rel="alternate" type="application/rss+xml" href="https://ps.retact.net/tags/index.xml" title="Paper Survey" />
     </head>
 
     <body>
@@ -146,26 +144,55 @@
         <div id="content" class="content-container">
         
 
-<h1>Tags</h1>
+<h1 class="post-title">Real Time Pattern Recognition for Hand Gesture Based on ANN and Surface EMG</h1>
+    
+    <time>September 8, 2021</time>
+    
+    <div>
+        <p>
+        <h2 id="1-どんなもの">1. どんなもの？</h2>
+<p>フィードフォワードの3層ANNを用いた5クラスのジェスチャーのリアルタイム分類について記述されている．手法として，スライドウィンドウ法をもちいて，4つの時間的特徴とHjorthParametersを元に特徴量ベクトルを作成し，平均応答速度を300msに押さえ分類精度は96％を示している．またそれぞれの特徴の筋電的な意味についても述べられている．</p>
+<h2 id="2-先行研究と比べてどこがすごいの">2. 先行研究と比べてどこがすごいの？</h2>
+<p>● 先行研究と比べて，300msのレスポンスをANNを用いて行っている点，さらにクラスは5であるもののMyoをつかった分類精度は96%を示している点.</p>
+<h2 id="3-技術や手法のキモはどこにある">3. 技術や手法の&quot;キモ&quot;はどこにある？</h2>
+<p>● スライドウィンドウ法<br>
+ウィンドウサイズやスライドサイズについては明記されていなかったがスライドウィンドウ法を用いている．おそらくウィンドウサイズは移動平均で使うデータに合わせてあると考える．またこのスライドウィンドウで算出した特徴量ベクトルを構築し入力している．<br>
+● Hjorth Parameters<br>
+特徴量として，HjorthParametersも時間的特徴と共に利用しており，ActivityとMObilityとComplexityの統計的特性の指標として明記されている．<br>
+● 学習時間が短いこと<br>
+今回の分類を行うためにおこなったトレーニングデータの取得は30回のみ出会ったために実用的な義手を考える上では重要な点であると考える．</p>
+<h2 id="4-どうやって有効だと検証した">4. どうやって有効だと検証した？</h2>
+<p>● Restも含めた6のジェスチャーを各5回計測し合計30のデータを用いて学習し，テストデータではそのセットを5つ取得し，150のデータサンプルを用いて，過去の研究の分類精度を比較している．<br>
+なおデータ取得のプロセスと人数などについては明記されていない．<br>
+<img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/8770353/8785424/8785894/yang4-p4-yang-small.gif" alt="Confusion matrix of the results"><br>
+<img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/8770353/8785424/8785894/yang.t1-p4-yang-small.gif" alt="Hand Getures activity time and response time"></p>
+<h2 id="5-議論はあるか">5. 議論はあるか？</h2>
+<p>● 他のメソッドについて明記されていない．<br>
+● 識別精度と応答速度の向上</p>
+<h2 id="6-次に読むべき論文はあるか">6. 次に読むべき論文はあるか？</h2>
+<p>ANNを利用した分類について<br>
+-<a href="https://ieeexplore.ieee.org/document/5937135">Electromygraphy (EMG) signal based hand gesture recognition using artificial neural network (ANN)</a></p>
+<h3 id="論文情報リンク">論文情報・リンク</h3>
 <ul>
-    
-        <li><a href="https://ps.retact.net/tags/ab/">AB</a> 2</li>
-    
-        <li><a href="https://ps.retact.net/tags/ah/">AH</a> 4</li>
-    
-        <li><a href="https://ps.retact.net/tags/emg/">EMG</a> 21</li>
-    
-        <li><a href="https://ps.retact.net/tags/fe/">FE</a> 4</li>
-    
-        <li><a href="https://ps.retact.net/tags/gr/">GR</a> 2</li>
-    
-        <li><a href="https://ps.retact.net/tags/real-time/">Real-Time</a> 3</li>
-    
-        <li><a href="https://ps.retact.net/tags/windowsize/">Windowsize</a> 1</li>
-    
+<li><a href="https://ieeexplore.ieee.org/document/8785894">K. Yang and Z. Zhang, &ldquo;Real-time Pattern Recognition for Hand Gesture Based on ANN and Surface EMG,&rdquo; 2019 IEEE 8th Joint International Information Technology and Artificial Intelligence Conference (ITAIC), 2019, pp. 799-802, doi: 10.1109/ITAIC.2019.8785894.</a></li>
 </ul>
+        </p>
+    </div>
+    
 
-<div class="page-footer"></div>
+    
+
+    <div class="page-footer">
+        
+        <hr class="footer-divider">
+        
+            <a class="tag" href="/tags/emg">#EMG</a>
+        
+            <a class="tag" href="/tags/real-time">#Real-Time</a>
+        
+      
+    </div>
+
 
         
 
