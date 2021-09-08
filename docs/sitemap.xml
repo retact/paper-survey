@@ -2,25 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ps.retact.net/posts/2021-09-09-real-time-hand-gesture-recognition-based-on-artificial-feed-forward-neural-networks-and-emg/</loc>
+    <lastmod>2021-09-09T01:13:35+09:00</lastmod>
+  </url><url>
     <loc>https://ps.retact.net/tags/emg/</loc>
-    <lastmod>2021-09-08T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-09T01:13:35+09:00</lastmod>
+  </url><url>
+    <loc>https://ps.retact.net/</loc>
+    <lastmod>2021-09-09T01:13:35+09:00</lastmod>
+  </url><url>
+    <loc>https://ps.retact.net/posts/</loc>
+    <lastmod>2021-09-09T01:13:35+09:00</lastmod>
+  </url><url>
+    <loc>https://ps.retact.net/tags/real-time/</loc>
+    <lastmod>2021-09-09T01:13:35+09:00</lastmod>
+  </url><url>
+    <loc>https://ps.retact.net/tags/</loc>
+    <lastmod>2021-09-09T01:13:35+09:00</lastmod>
   </url><url>
     <loc>https://ps.retact.net/posts/2021-09-08-forearm-motion-discrimination-technique-using-real-time-emg-signals/</loc>
     <lastmod>2021-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ps.retact.net/</loc>
-    <lastmod>2021-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ps.retact.net/posts/</loc>
-    <lastmod>2021-09-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ps.retact.net/posts/2021-09-08-real-time-pattern-recognition-for-hand-gesture-based-on-ann-and-surface-emg/</loc>
-    <lastmod>2021-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ps.retact.net/tags/real-time/</loc>
-    <lastmod>2021-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ps.retact.net/tags/</loc>
     <lastmod>2021-09-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ps.retact.net/posts/2021-08-30-investigation-of-different-approaches-to-real-time-control-of-prosthetic-hands-with-electromyography-signals/</loc>
@@ -106,7 +109,5 @@
   </url><url>
     <loc>https://ps.retact.net/posts/2021-04-16-development-of-five-finger-multi-dof-myoelectric-hands-with-a-power-allocation-mechanism/</loc>
     <lastmod>2021-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ps.retact.net/posts/2021-09-09-real-time-hand-gesture-recognition-based-on-artificial-feed-forward-neural-networks-and-emg/</loc>
   </url>
 </urlset>

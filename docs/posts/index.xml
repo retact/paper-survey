@@ -6,7 +6,20 @@
     <description>Recent content in Posts on Paper Survey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Sep 2021 01:13:35 +0900</lastBuildDate><atom:link href="https://ps.retact.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Real Time Hand Gesture Recognition Based on Artificial Feed Forward Neural Networks and EMG </title>
+      <link>https://ps.retact.net/posts/2021-09-09-real-time-hand-gesture-recognition-based-on-artificial-feed-forward-neural-networks-and-emg/</link>
+      <pubDate>Thu, 09 Sep 2021 01:13:35 +0900</pubDate>
+      
+      <guid>https://ps.retact.net/posts/2021-09-09-real-time-hand-gesture-recognition-based-on-artificial-feed-forward-neural-networks-and-emg/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;3層ニューラルネットワークで5つのジェスチャーを90.1%の精度でresponse速度11msで分類している．&lt;br&gt;
+また，ウィンドウサイズ500点でスライドウィンドウが10点であり，整流化のち5次のバターワースフィルタを用いてエンベロープで平滑化したあとに，筋収縮に対応する点をセグメント化している．特徴量抽出はDTWを利用しており，分類では条件付き確立で0.5の閾値を取らなければrestと判断する手法が取られている．&lt;br&gt;
+またこの手法の利点として,トレーニングデータが30個であるため，学習コストが非常に少ないといったことがあげられる．
+今後の手法としてRNNを用いた分類モジュールを提案している．&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Forearm Motion Discrimination Technique Using Real Time EMG Signals</title>
       <link>https://ps.retact.net/posts/2021-09-08-forearm-motion-discrimination-technique-using-real-time-emg-signals/</link>
@@ -249,19 +262,6 @@ CWTベースのConvNetでは17人の参加者の7つのジェスチャーに対�
 &lt;p&gt;ロボットハンドのピンチ動作の冗長な自由度を利用した握力を向上させるPower allocation mechanismによって、
 指先の力がこれを用いていないものと比べて64%上昇させることができ、3本指で1kgの物体を持ち上げた。
 サイズや重量を大幅に変えることなく、自由度が高く安定した状態で握力を向上できる。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>2021 09 09 Real Time Hand Gesture Recognition Based on Artificial Feed Forward Neural Networks and EMG</title>
-      <link>https://ps.retact.net/posts/2021-09-09-real-time-hand-gesture-recognition-based-on-artificial-feed-forward-neural-networks-and-emg/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ps.retact.net/posts/2021-09-09-real-time-hand-gesture-recognition-based-on-artificial-feed-forward-neural-networks-and-emg/</guid>
-      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
-&lt;p&gt;3層ニューラルネットワークで5つのジェスチャーを90.1%の精度でresponse速度11msで分類している．&lt;br&gt;
-また，ウィンドウサイズ500点でスライドウィンドウが10点であり，整流化のち5次のバターワースフィルタを用いてエンベロープで平滑化したあとに，筋収縮に対応する点をセグメント化している．特徴量抽出はDTWを利用しており，分類では条件付き確立で0.5の閾値を取らなければrestと判断する手法が取られている．&lt;br&gt;
-またこの手法の利点として,トレーニングデータが30個であるため，学習コストが非常に少ないといったことがあげられる．
-今後の手法としてRNNを用いた分類モジュールを提案している．&lt;/p&gt;</description>
     </item>
     
   </channel>
