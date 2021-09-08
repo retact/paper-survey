@@ -2,7 +2,7 @@
 ---
 author: "retact"
 title: "2021 09 09 Real Time Hand Gesture Recognition Based on Artificial Feed Forward Neural Networks and EMG"
-date: 2021-09-09
+date: 2021-09-09T
 draft: false
 description: "description"
 tags: [
