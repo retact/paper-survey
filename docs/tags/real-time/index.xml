@@ -6,7 +6,29 @@
     <description>Recent content in Real-Time on Paper Survey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 30 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/tags/real-time/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/tags/real-time/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forearm Motion Discrimination Technique Using Real Time EMG Signals</title>
+      <link>https://ps.retact.net/posts/2021-09-08-forearm-motion-discrimination-technique-using-real-time-emg-signals/</link>
+      <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ps.retact.net/posts/2021-09-08-forearm-motion-discrimination-technique-using-real-time-emg-signals/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;300m/s以下のレスポンス速度について&lt;a href=&#34;https://ieeexplore.ieee.org/document/8785894&#34;&gt;Real-time Pattern Recognition for Hand Gesture Based on ANN and Surface EMG&lt;/a&gt;で明記されていた理由として紹介されていたが，本文ではその理由に対するエビデンスは示されていない．&lt;br&gt;
+本文ではhyper - spheremodel といったみたことのない特徴を用いており，異常値をrestとみなすアプローチがされている.&lt;br&gt;
+また移動平均フィルタのデータ数が増えると遅延量が多くなりレスポンス速度が遅くなるという結果明記がされている．　　&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Real Time Pattern Recognition for Hand Gesture Based on ANN and Surface EMG</title>
+      <link>https://ps.retact.net/posts/2021-09-08-real-time-pattern-recognition-for-hand-gesture-based-on-ann-and-surface-emg/</link>
+      <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ps.retact.net/posts/2021-09-08-real-time-pattern-recognition-for-hand-gesture-based-on-ann-and-surface-emg/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;フィードフォワードの3層ANNを用いた5クラスのジェスチャーのリアルタイム分類について記述されている．手法として，スライドウィンドウ法をもちいて，4つの時間的特徴とHjorthParametersを元に特徴量ベクトルを作成し，平均応答速度を300msに押さえ分類精度は96％を示している．またそれぞれの特徴の筋電的な意味についても述べられている．&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Investigation of Different Approaches to Real Time Control of Prosthetic Hands With Electromyography Signals</title>
       <link>https://ps.retact.net/posts/2021-08-30-investigation-of-different-approaches-to-real-time-control-of-prosthetic-hands-with-electromyography-signals/</link>
@@ -15,6 +37,19 @@
       <guid>https://ps.retact.net/posts/2021-08-30-investigation-of-different-approaches-to-real-time-control-of-prosthetic-hands-with-electromyography-signals/</guid>
       <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
 &lt;p&gt;ACCを用いたマルチモーダルによる筋電パターン認識システムの評価と感覚フィードバックの考案をしている．筋電パターン認識では300msで応答するソフトウェアハードウェアシステムを開発しており，従来の分類精度と同等の結果を得られている，またフィードバックシステムにおいても把持する物体の質量が変わっても把持し続けられる結果を得ている．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021 09 09 Real Time Hand Gesture Recognition Based on Artificial Feed Forward Neural Networks and EMG</title>
+      <link>https://ps.retact.net/posts/2021-09-09-real-time-hand-gesture-recognition-based-on-artificial-feed-forward-neural-networks-and-emg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ps.retact.net/posts/2021-09-09-real-time-hand-gesture-recognition-based-on-artificial-feed-forward-neural-networks-and-emg/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;3層ニューラルネットワークで5つのジェスチャーを90.1%の精度でresponse速度11msで分類している．&lt;br&gt;
+また，ウィンドウサイズ500点でスライドウィンドウが10点であり，整流化のち5次のバターワースフィルタを用いてエンベロープで平滑化したあとに，筋収縮に対応する点をセグメント化している．特徴量抽出はDTWを利用しており，分類では条件付き確立で0.5の閾値を取らなければrestと判断する手法が取られている．&lt;br&gt;
+またこの手法の利点として,トレーニングデータが30個であるため，学習コストが非常に少ないといったことがあげられる．
+今後の手法としてRNNを用いた分類モジュールを提案している．&lt;/p&gt;</description>
     </item>
     
   </channel>
