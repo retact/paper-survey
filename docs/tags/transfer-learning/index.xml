@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transfer Learning on Paper Survey</title>
+    <link>https://ps.retact.net/tags/transfer-learning/</link>
+    <description>Recent content in Transfer Learning on Paper Survey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 02 May 2022 12:50:42 +0900</lastBuildDate><atom:link href="https://ps.retact.net/tags/transfer-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning</title>
+      <link>https://ps.retact.net/posts/2022-05-02-deep-learning-for-electromyographic-hand-gesture-signal-classification-using-transfer-learning/</link>
+      <pubDate>Mon, 02 May 2022 12:50:42 +0900</pubDate>
+      
+      <guid>https://ps.retact.net/posts/2022-05-02-deep-learning-for-electromyographic-hand-gesture-signal-classification-using-transfer-learning/</guid>
+      <description>&lt;h2 id=&#34;1-どんなもの&#34;&gt;1. どんなもの？&lt;/h2&gt;
+&lt;p&gt;Tlを用いて，複数のユーザー間から取得されたデータを用いて，簡易的にジェスチャー分類タスクの学習を行う手法を提示している．&lt;br&gt;
+タスクとしては2つのデータセットを取得し，Ninaproを合わせた3つのデータベースで,CWT,rawEMG,スペクトログラムのそれぞれ3つの異なる入力のネットワークを用い，その有用性を示している．&lt;br&gt;
+また，real-time feedbackをもちいたユースケースにおいて，精度劣化を軽減させることを示している．&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
