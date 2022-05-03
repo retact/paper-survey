@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ps.retact.net/posts/2022-05-02-deep-learning-for-electromyographic-hand-gesture-signal-classification-using-transfer-learning/</loc>
+    <lastmod>2022-05-02T12:50:42+09:00</lastmod>
+  </url><url>
     <loc>https://ps.retact.net/tags/emg/</loc>
-    <lastmod>2021-08-30T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-02T12:50:42+09:00</lastmod>
+  </url><url>
+    <loc>https://ps.retact.net/</loc>
+    <lastmod>2022-05-02T12:50:42+09:00</lastmod>
+  </url><url>
+    <loc>https://ps.retact.net/posts/</loc>
+    <lastmod>2022-05-02T12:50:42+09:00</lastmod>
+  </url><url>
+    <loc>https://ps.retact.net/tags/</loc>
+    <lastmod>2022-05-02T12:50:42+09:00</lastmod>
+  </url><url>
+    <loc>https://ps.retact.net/tags/transfer-learning/</loc>
+    <lastmod>2022-05-02T12:50:42+09:00</lastmod>
   </url><url>
     <loc>https://ps.retact.net/posts/2021-08-30-investigation-of-different-approaches-to-real-time-control-of-prosthetic-hands-with-electromyography-signals/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ps.retact.net/</loc>
-    <lastmod>2021-08-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ps.retact.net/posts/</loc>
-    <lastmod>2021-08-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ps.retact.net/tags/real-time/</loc>
-    <lastmod>2021-08-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ps.retact.net/tags/</loc>
     <lastmod>2021-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ps.retact.net/posts/2021-08-11-design-of-continuous-emg-classification-approaches-towards-the-control-of-a-robotic-exoskeleton-in-reaching-movements/</loc>
@@ -40,6 +46,12 @@
   </url><url>
     <loc>https://ps.retact.net/posts/2021-07-05-artificial-neural-network-classifier-in-comparison-with-lda-and-ls-svm-classifiers-to-recognize-52-hand-postures-and-movements/</loc>
     <lastmod>2021-07-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ps.retact.net/tags/future-extraction/</loc>
+    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ps.retact.net/posts/2021-06-23-recursive-multi-signal-temporal-fusions-with-attention-mechanism-improves-emg-feature-extraction/</loc>
+    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ps.retact.net/posts/2021-06-21-a-3d-printed-adjustable-armband-for-electromyography-based-finger-movement-classification-with-haptic-feedback/</loc>
     <lastmod>2021-06-21T00:00:00+00:00</lastmod>

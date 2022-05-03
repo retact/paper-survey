@@ -6,13 +6,22 @@
     <description>Recent content in Tags on Paper Survey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 30 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ps.retact.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 May 2022 12:50:42 +0900</lastBuildDate><atom:link href="https://ps.retact.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EMG</title>
       <link>https://ps.retact.net/tags/emg/</link>
-      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 May 2022 12:50:42 +0900</pubDate>
       
       <guid>https://ps.retact.net/tags/emg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transfer Learning</title>
+      <link>https://ps.retact.net/tags/transfer-learning/</link>
+      <pubDate>Mon, 02 May 2022 12:50:42 +0900</pubDate>
+      
+      <guid>https://ps.retact.net/tags/transfer-learning/</guid>
       <description></description>
     </item>
     
@@ -31,6 +40,15 @@
       <pubDate>Fri, 30 Jul 2021 14:55:35 +0900</pubDate>
       
       <guid>https://ps.retact.net/tags/windowsize/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Future Extraction</title>
+      <link>https://ps.retact.net/tags/future-extraction/</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ps.retact.net/tags/future-extraction/</guid>
       <description></description>
     </item>
     
